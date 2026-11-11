@@ -6,7 +6,7 @@ order: 1
 updated: 2026-11-11
 ---
 
-iSuite AI Solution Partner Program la, oru Partner iSuite AI-ku kondu vandhu sera client-ku commission kudukkuthu: **Direct Sale-ku 25%** and **Referral-ku 15%**, first payment la and ovvoru renewal la yum.
+iSuite AI Solution Partner Program la, oru Partner iSuite AI-ku kondu vandhu sera client-ku commission kudukkuthu: **Direct Sale-ku 15%** and **Referral-ku 10%**, first payment la and ovvoru renewal la yum.
 
 ## 1. Arimugam
 
@@ -16,7 +16,7 @@ Indha program iSuite AI, Madurai, Tamil Nadu nadathuthu. Indha rules ellaa Solut
 
 | Term | Artham |
 | --- | --- |
-| Solution Partner ("Partner") | iSuite AI approve pannina oru aal illa business, indha rules padi client-ah iSuite AI-ku kondu varavar |
+| Solution Partner ("Partner") | iSuite AI approve pannina oru business, indha rules padi client-ah iSuite AI-ku kondu varavar |
 | Client | Oru Partner moolama iSuite AI plan vaangura business |
 | Plan Price | Client katta vendiya iSuite AI plan oda price, GST thaviri |
 | Referral Link | Partner-ku kudukkura oru unique link, idhu moolama Client thaaney sign up pannitu vaangiduvaanga |
@@ -27,9 +27,9 @@ Indha program iSuite AI, Madurai, Tamil Nadu nadathuthu. Indha rules ellaa Solut
 
 ## 3. Yaar serlaam & join panradhu (Eligibility and joining)
 
-Join panradhu free. 18 vayasu mela irukkura yaaraavadhu, illa India la register aana business, apply pannalaam.
+Join panradhu free. India la register aana endha business-um apply pannalaam.
 
-1. Apply pannuravar oru partner application-ah name, contact details and business details (irundha) oda submit pannanum.
+1. Apply pannuravar oru partner application-ah name, contact details and business details oda submit pannanum.
 2. Apply pannuravar KYC complete pannanum: PAN, avanga per la illa avanga business per la oru bank account, and GST-registered-nna GSTIN.
 3. Apply pannuravar Solution Partner Agreement and indha rules-ah accept pannanum.
 4. iSuite AI application-ah paathu approve illa decline pannum. Karanam sollaama kooda iSuite AI decline pannalaam.
@@ -41,9 +41,9 @@ Partner Client-ah kondu vandhu convince pannanum. Adhukku apparam ellaam iSuite 
 
 | Partner | iSuite AI |
 | --- | --- |
-| iSuite AI-ku porutham aana business-ah kandupidichu, product-ah honest-aa explain pannanum | Client-ah contact pannum, thevai padra edathula demo kudukkum |
+| iSuite AI-ku porutham aana business-ah kandupidichu, product-ah honest-aa explain panni, vaanga convince pannanum | Client pay pannina apparam set up panni guide pannum. iSuite AI sales demo kudukkaadhu |
 | Client-ah Referral Link illa Direct Sale moolama kondu varanum, and lead-ah register panni claim pannanum | Account, WhatsApp number, Meta approval and AI rules ellaam set up pannum |
-| iSuite AI publish pannina correct plan details and prices-ah share pannanum | Ellaa payment-ah yum collect pannum, GST invoice kudukkum |
+| iSuite AI publish pannina correct plan details and prices-ah share pannanum | Ellaa payment-um online-la, direct-aa iSuite AI-ku dhaan varum. GST invoice iSuite AI kudukkum |
 | Client information-ah confidential-aa vechukkanum | Client-ku ellaa support, training and renewals kudukkum |
 
 Partner oru independent contractor. Partner iSuite AI oda employee, agent illa legal representative kidaiyaadhu, and iSuite AI sarbaa contract sign panna illa promise panna mudiyaadhu.
@@ -54,8 +54,8 @@ Partner rendu sale method moolama earn pannalaam. Lead Registration oru prospect
 
 | Method | Eppadi work aaguthu | Plan Price mela Commission |
 | --- | --- | --- |
-| Direct Sale | Partner Client-ah convince panni, plan-ah select panni, official iSuite AI payment link anuppuvaar | **25%** |
-| Referral | Client Partner oda Referral Link moolama thaaney sign up panni vaanguvaanga | **15%** |
+| Direct Sale | Partner Client-ah convince panni, plan-ah select panni, official iSuite AI payment link anuppuvaar | **15%** |
+| Referral | Client Partner oda Referral Link moolama thaaney sign up panni vaanguvaanga | **10%** |
 | Lead Registration | Partner interest irukkura oru prospect-ah register panni claim pannuvaar. Appuram antha prospect Direct Sale illa Referral moolama vaangumbodhu, antha method oda rate apply aagum | Thaniyaa commission illa |
 
 - **Renewals:** Ovvoru Renewal la yum adhey rate dhaan kudukkum, eppovarai Client renew pannuraangalo and Partner program la irukkaaro adhuvarai.
@@ -64,16 +64,17 @@ Partner rendu sale method moolama earn pannalaam. Lead Registration oru prospect
 - **Link expiry:** Ovvoru payment link-kkum oru expiry date irukkum, link create pannumbodhe set aagum. Expire aana link-ah use panna mudiyaadhu. Partner pudhu link anuppalaam.
 - **Basis:** Commission = GST illaadha Plan Price mela rate, adhula irundhu Partner discount (section 8) kazhichu. iSuite AI real-aa vaangitta amount-ku mattum dhaan kudukkum.
 
-> **Example:** Oru clinic Clinic Growth (₹22,999 + GST) ah Direct Sale moolama vaanguthu. Partner 25% × ₹22,999 = ₹5,750 earn pannuvaar, and ovvoru varsha Renewal la yum thirumba ₹5,750.
+> **Example:** Oru clinic Clinic Growth (₹22,999 + GST) ah Direct Sale moolama vaanguthu. Partner 15% × ₹22,999 = ₹3,450 earn pannuvaar, and ovvoru varsha Renewal la yum thirumba ₹3,450.
 
 ## 6. Attribution rules (Yaaru-ku commission-nu mudivu pannra rules)
 
 Ovvoru Client-um oru commission dhaan kudukkum, antha commission oru Partner-ku dhaan.
 
 - **Referral Link validity:** Partner oda Referral Link-ah first time click panni, 90 days la vaangura Client antha Partner-ku credit aaguvaanga.
-- **Lead Registration lock:** Register pannina oru lead antha Partner-ku 60 days lock aagi irukkum. Antha time la vera yaaru Partner-um adhey lead-ah register illa claim panna mudiyaadhu. 60 days la lead vaangalena, lock mudinjudum, and lead free aagidum.
+- **Lead Registration lock:** Register pannina oru lead antha Partner-ku 60 days lock aagi irukkum. Antha time la vera yaaru Partner-um adhey lead-ah register illa claim panna mudiyaadhu. 60 days la lead vaangalena, lock mudinjudum, and lead free aagidum. Lock mudinja apparam, adhey Partner antha lead-ah adutha 30 days-ku thirumba register panna mudiyaadhu. Antha 30 days la Partner antha business-ah Direct Sale illa Referral moolama kondu varalaam, and vera Partner adha register pannalaam.
 - **One commission per Client:** Adhey Client oru Partner oda oru method-ku mela moolama iSuite AI-ah adanjaa, oru commission dhaan kudukkum, sale-ah complete pannina method oda rate la.
 - **Two Partners, one Client:** Valid Lead Registration lock-ku dhaan priority. Lock illaama irundhaa, Client last-aa use pannina link dhaan mudivu pannum: yaaru Partner oda Referral Link illa payment link purchase-ah complete pannithaa, avanga dhaan credit, munnadi vera Partner oda link click aana irundhaalum.
+- **Locked lead, vera Partner oda link:** Lock aana oru lead vera Partner oda link moolama vaanginaa, lock vechirukkura Partner-ku dhaan credit, Referral rate (10%) la. Antha vera Partner-ku antha Client-la edhuvum kedaikkaadhu.
 - **Registration check:** iSuite AI ovvoru Lead Registration-ah yum duplicate-ku check pannum. Yaaru-ku credit-nu iSuite AI oda records dhaan mudivu pannum.
 
 > **Example:** Client day 1 la Partner A oda link click pannuvaanga, aana day 87 la Partner B oda link moolama vaanguvaanga. Partner B-ku dhaan credit.
@@ -93,13 +94,13 @@ Idhu ellaam la commission kudukkaadhu:
 iSuite AI dhaan ellaa plan price-ah yum set pannum. Partner publish aana price la dhaan vikkanum, Direct Sale la Partner discount dhaan exception.
 
 - Partner iSuite AI publish pannina plan-ah and price-ah mattum dhaan quote pannanum.
-- **Partner discount (Direct Sale mattum):** Oru Direct Sale la, Partner Client-ku Plan Price oda 25% varai eppadi venaalum discount kudukkalaam. Antha discount Partner oda sonta 25% commission la irundhu dhaan poogum. First payment la and edhaavadhu Renewal la kudukkalaam, ovvoru thadava antha payment oda commission la irundhu.
+- **Partner discount (Direct Sale mattum):** Oru Direct Sale la, Partner Client-ku Plan Price oda 15% varai eppadi venaalum discount kudukkalaam. Antha discount Partner oda sonta 15% commission la irundhu dhaan poogum. First payment la and edhaavadhu Renewal la kudukkalaam, ovvoru thadava antha payment oda commission la irundhu.
 - **Referral:** Referral sales la discount edhuvum illa. Client publish aana price-ah dhaan kattanum.
 - Ovvoru payment-um direct-aa official iSuite AI payment link moolama iSuite AI-ku dhaan poogum. Partner Client kitta irundhu cash, UPI, bank transfer illa vera edhavadhu vazhiyila money collect panna mudiyaadhu.
 - iSuite AI oda terms, refund policy and privacy policy ovvoru Client-ku yum apply aagum.
 - Oru plan period start aana apparam payment refund aagaadhu. Rare case la, iSuite AI oda refund policy refund allow pannina madiri (double charge illa plan activate aagaama irundhaa), refund aana amount mela commission kudukkaadhu.
 
-> **Example:** Plan Price ₹22,999. Partner ₹2,000 discount kudukkuraar. Client ₹20,999 + GST kattuvaanga, and Partner ₹5,750 − ₹2,000 = ₹3,750 earn pannuvaar.
+> **Example:** Plan Price ₹22,999. Partner ₹2,000 discount kudukkuraar. Client ₹20,999 + GST kattuvaanga, and Partner ₹3,450 − ₹2,000 = ₹1,450 earn pannuvaar.
 
 ## 9. Commission payout & taxes
 

@@ -13,6 +13,21 @@ export default function Sidebar({ docs, upcoming }: { docs: DocMeta[]; upcoming:
   const existing = new Set(docs.map((d) => d.short.toLowerCase()));
   const soon = upcoming.filter((u) => !existing.has(u.toLowerCase()));
   const onHome = pathname === "/" || pathname === "";
+  // Docs with "status: Internal" get their own section, below the partner docs.
+  const isInternal = (d: DocMeta) => d.status.toLowerCase() === "internal";
+  const partnerDocs = docs.filter((d) => !isInternal(d));
+  const internalDocs = docs.filter(isInternal);
+
+  const renderDoc = (d: DocMeta) => {
+    const active = pathname.startsWith(`/docs/${d.slug}`);
+    return (
+      <Link key={d.slug} href={`/docs/${d.slug}/`} className={`side-item${active ? " active" : ""}`} onClick={close}>
+        <span className="side-icon num">{String(docs.indexOf(d) + 1).padStart(2, "0")}</span>
+        <span className="side-name">{d.short}</span>
+        {d.status && !isInternal(d) && <span className="side-badge">{d.status}</span>}
+      </Link>
+    );
+  };
 
   // Close the mobile menu whenever the route changes.
   useEffect(() => {
@@ -49,21 +64,10 @@ export default function Sidebar({ docs, upcoming }: { docs: DocMeta[]; upcoming:
           </Link>
 
           <p className="side-section">Documents</p>
-          {docs.map((d, i) => {
-            const active = pathname.startsWith(`/docs/${d.slug}`);
-            return (
-              <Link
-                key={d.slug}
-                href={`/docs/${d.slug}/`}
-                className={`side-item${active ? " active" : ""}`}
-                onClick={close}
-              >
-                <span className="side-icon num">{String(i + 1).padStart(2, "0")}</span>
-                <span className="side-name">{d.short}</span>
-                {d.status && <span className="side-badge">{d.status}</span>}
-              </Link>
-            );
-          })}
+          {partnerDocs.map(renderDoc)}
+
+          {internalDocs.length > 0 && <p className="side-section">Internal</p>}
+          {internalDocs.map(renderDoc)}
 
           {soon.length > 0 && <p className="side-section">Coming soon</p>}
           {soon.map((name, i) => (

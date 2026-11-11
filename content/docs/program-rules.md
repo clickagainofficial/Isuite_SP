@@ -6,7 +6,7 @@ order: 1
 updated: 2026-11-11
 ---
 
-The iSuite AI Solution Partner Program pays partners a commission for every client they bring to iSuite AI: **25% for a Direct Sale** and **15% for a Referral**, on the first payment and on every renewal.
+The iSuite AI Solution Partner Program pays partners a commission for every client they bring to iSuite AI: **15% for a Direct Sale** and **10% for a Referral**, on the first payment and on every renewal.
 
 ## 1. Introduction
 
@@ -16,7 +16,7 @@ The program is run by iSuite AI, Madurai, Tamil Nadu. These rules apply to every
 
 | Term | Meaning |
 | --- | --- |
-| Solution Partner ("Partner") | An individual or business approved by iSuite AI to bring clients to iSuite AI under these rules |
+| Solution Partner ("Partner") | A business approved by iSuite AI to bring clients to iSuite AI under these rules |
 | Client | A business that buys an iSuite AI plan through a Partner |
 | Plan Price | The price of the iSuite AI plan the Client pays, excluding GST |
 | Referral Link | A unique link issued to the Partner, through which a Client signs up and buys on their own |
@@ -27,9 +27,9 @@ The program is run by iSuite AI, Madurai, Tamil Nadu. These rules apply to every
 
 ## 3. Eligibility and joining
 
-Joining is free. Any individual aged 18 or above, or any business registered in India, can apply.
+Joining is free. Any business registered in India can apply.
 
-1. The applicant submits the partner application with name, contact details and business details (if any).
+1. The applicant submits the partner application with name, contact details and business details.
 2. The applicant completes KYC: PAN, a bank account in their own name or their business's name, and GSTIN if GST-registered.
 3. The applicant accepts the Solution Partner Agreement and these rules.
 4. iSuite AI reviews the application and approves or declines it. iSuite AI may decline without giving a reason.
@@ -41,9 +41,9 @@ The Partner brings and convinces the Client. iSuite AI does everything after tha
 
 | Partner | iSuite AI |
 | --- | --- |
-| Find businesses that fit iSuite AI and explain the product honestly | Contact the Client, give demos where needed |
+| Find businesses that fit iSuite AI, explain the product honestly and convince them to buy | Set up and guide the Client after the Client has paid. iSuite AI does not give sales demos |
 | Bring the Client through a Referral Link or a Direct Sale, and register leads to claim them | Set up the account, WhatsApp number, Meta approval and AI rules |
-| Share accurate plan details and prices as published by iSuite AI | Collect all payments, issue GST invoices |
+| Share accurate plan details and prices as published by iSuite AI | Payments are made online, directly to iSuite AI. iSuite AI issues the GST invoice |
 | Keep Client information confidential | Provide all support, training and renewals for the Client |
 
 The Partner is an independent contractor. The Partner is not an employee, agent or legal representative of iSuite AI, and cannot sign contracts or make promises on its behalf.
@@ -54,8 +54,8 @@ The Partner earns through two sale methods. Lead Registration protects a prospec
 
 | Method | How it works | Commission on Plan Price |
 | --- | --- | --- |
-| Direct Sale | Partner convinces the Client, selects the plan and sends the official iSuite AI payment link | **25%** |
-| Referral | Client signs up and buys on their own through the Partner's Referral Link | **15%** |
+| Direct Sale | Partner convinces the Client, selects the plan and sends the official iSuite AI payment link | **15%** |
+| Referral | Client signs up and buys on their own through the Partner's Referral Link | **10%** |
 | Lead Registration | Partner registers an interested prospect to claim them. When the prospect later buys through a Direct Sale or Referral, that method's rate applies | No separate commission |
 
 - **Renewals:** The same rate is paid on every Renewal, for as long as the Client renews and the Partner remains in the program.
@@ -64,16 +64,17 @@ The Partner earns through two sale methods. Lead Registration protects a prospec
 - **Link expiry:** Every payment link has an expiry date, set when the link is created. An expired link cannot be used. The Partner can send a new one.
 - **Basis:** Commission is the rate applied to the Plan Price excluding GST, minus any Partner discount (section 8). It is paid only on amounts iSuite AI has actually received.
 
-> **Example:** A clinic buys Clinic Growth (₹22,999 + GST) through a Direct Sale. The Partner earns 25% × ₹22,999 = ₹5,750, and ₹5,750 again on each yearly Renewal.
+> **Example:** A clinic buys Clinic Growth (₹22,999 + GST) through a Direct Sale. The Partner earns 15% × ₹22,999 = ₹3,450, and ₹3,450 again on each yearly Renewal.
 
 ## 6. Attribution rules
 
 Each Client brings only one commission, paid to only one Partner.
 
 - **Referral Link validity:** A Client who buys within 90 days of first clicking the Partner's Referral Link is credited to that Partner.
-- **Lead Registration lock:** A registered lead is locked to that Partner for 60 days. No other Partner can register or claim the same lead during this time. If the lead does not buy within 60 days, the lock ends and the lead is free.
+- **Lead Registration lock:** A registered lead is locked to that Partner for 60 days. No other Partner can register or claim the same lead during this time. If the lead does not buy within 60 days, the lock ends and the lead is free. After the lock ends, the same Partner cannot register that lead again for the next 30 days. During those 30 days the Partner can still bring that business through a Direct Sale or a Referral, and any other Partner can register it.
 - **One commission per Client:** If the same Client reaches iSuite AI through more than one method of the same Partner, only one commission is paid, at the rate of the method that completed the sale.
 - **Two Partners, one Client:** A valid Lead Registration lock takes priority. Without a lock, the last link the Client used to buy decides: the Partner whose Referral Link or payment link completed the purchase is credited, even if another Partner's link was clicked earlier.
+- **Locked lead, another Partner's link:** If a locked lead buys through a different Partner's link, the Partner who holds the lock is credited at the Referral rate (10%). The other Partner earns nothing on that Client.
 - **Registration check:** iSuite AI checks every Lead Registration for duplicates. iSuite AI's records decide who is credited.
 
 > **Example:** The Client clicks Partner A's link on day 1 and buys through Partner B's link on day 87. Partner B is credited.
@@ -93,13 +94,13 @@ No commission is paid when:
 iSuite AI sets all plan prices. The Partner sells at published prices, except for the Partner discount on Direct Sales.
 
 - The Partner quotes only the plans and prices published by iSuite AI.
-- **Partner discount (Direct Sale only):** In a Direct Sale, the Partner may give the Client a discount of any amount up to 25% of the Plan Price. The discount comes out of the Partner's own 25% commission. The Partner can give it on the first payment and on any Renewal, each time out of that payment's commission.
+- **Partner discount (Direct Sale only):** In a Direct Sale, the Partner may give the Client a discount of any amount up to 15% of the Plan Price. The discount comes out of the Partner's own 15% commission. The Partner can give it on the first payment and on any Renewal, each time out of that payment's commission.
 - **Referral:** No discount is available on Referral sales. The Client pays the published price.
 - Every payment goes directly to iSuite AI through an official iSuite AI payment link. The Partner must never collect money from a Client in cash, UPI, bank transfer or any other way.
 - iSuite AI's terms, refund policy and privacy policy apply to every Client.
 - Payments are not refunded once a plan period starts. In the rare cases where iSuite AI's refund policy allows a refund, such as a double charge or a plan not activated, no commission is paid on the refunded amount.
 
-> **Example:** Plan Price ₹22,999. The Partner gives a ₹2,000 discount. The Client pays ₹20,999 + GST, and the Partner earns ₹5,750 − ₹2,000 = ₹3,750.
+> **Example:** Plan Price ₹22,999. The Partner gives a ₹2,000 discount. The Client pays ₹20,999 + GST, and the Partner earns ₹3,450 − ₹2,000 = ₹1,450.
 
 ## 9. Commission payout and taxes
 

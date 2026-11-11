@@ -6,7 +6,7 @@ order: 2
 updated: 2026-11-11
 ---
 
-Indha Agreement iSuite AI-kkum keezhe sollirukkura Solution Partner-kkum idaiye pottukkappadudhu. Idhu moolama Partner, iSuite AI-kku clients-a konduvandhu, Solution Partner Program Rules padi commission sambaadikkalaam. Partner oru individual-a irundhaalum business-a irundhaalum idhe Agreement dhaan apply aagum.
+Indha Agreement iSuite AI-kkum keezhe sollirukkura Solution Partner-kkum idaiye pottukkappadudhu. Idhu moolama Partner, iSuite AI-kku clients-a konduvandhu, Solution Partner Program Rules padi commission sambaadikkalaam.
 
 ## Parties (Tharappinar)
 
@@ -18,7 +18,7 @@ Indha Agreement iSuite AI-kkum keezhe sollirukkura Solution Partner-kkum idaiye 
 
 **Matrum:**
 
-Schedule A-la peru sollirukkura aal alladhu business (**"the Partner"**).
+Schedule A-la peru sollirukkura business (**"the Partner"**).
 
 iSuite AI-um Partner-um thanithaniye oru **"Party"**, rendu perum serndhu **"Parties"**.
 
@@ -53,13 +53,13 @@ Partner seiyya vendiyadhu:
 iSuite AI seiyya vendiyadhu:
 
 1. Partner-kku oru partner login, Referral Links, payment links matrum sales material kudukkanum.
-2. Partner konduvara ellaa Client-ai yum contact panni, onboard panni, set up panni, support pannanum.
+2. Partner konduvara ellaa Client-ai yum, avanga pay pannina apparam, set up panni, guide panni, support pannanum. iSuite AI sales demo kudukkaadhu.
 3. Ovvoru Lead Registration, Referral matrum Direct Sale-ai yum record pannanum, matrum Partner-kku avangaloda sales matrum commission-a kaamikkanum.
 4. Partner-oda commission-a keezhe irukkura clause 5 padi yum Program Rules padi yum kudukkanum.
 
 ## 5. Commission and payment
 
-1. Partner, Qualified Sales-la commission sambaadikkiraar, Program Rules-la irukkura rates-la: ippo **25%** Direct Sale-ku matrum **15%** Referral-ku, modhal payment-la matrum indha Agreement jaariyila irukkura varaikkum ovvoru Renewal-la yum.
+1. Partner, Qualified Sales-la commission sambaadikkiraar, Program Rules-la irukkura rates-la: ippo **15%** Direct Sale-ku matrum **10%** Referral-ku, modhal payment-la matrum indha Agreement jaariyila irukkura varaikkum ovvoru Renewal-la yum.
 2. Commission bank transfer moolama ovvoru maasam 5-aam thedhi, Schedule A-la irukkura bank account-ku, oru payout statement-oda kudukkappadum.
 3. Indian income-tax chattam kettaa iSuite AI TDS deduct pannum. GST-la register aana Partner, commission-ku oru GST invoice raise pannanum, matrum iSuite AI adhoda mela GST kudukkum.
 4. Indha Agreement-la Partner-kku commission mattum dhaan payment. Partner-kku salary, allowance alladhu veru edha benefit-um kidaiyaadhu.
@@ -128,9 +128,9 @@ Partner-oda indha Agreement breach, Clients kitta poy solradhu, Client data misu
 
 | Detail | Partner to fill in |
 | --- | --- |
-| Partner type | ☐ Individual ☐ Proprietorship ☐ Partnership firm ☐ LLP ☐ Company |
-| Full name (individual) alladhu register aana business name | |
-| Authorised signatory peru (business-ku) | |
+| Partner type | ☐ Proprietorship ☐ Partnership firm ☐ LLP ☐ Company |
+| Register aana business name | |
+| Authorised signatory peru | |
 | Address | |
 | Mobile matrum WhatsApp number | |
 | Email | |
@@ -141,7 +141,7 @@ Partner-oda indha Agreement breach, Clients kitta poy solradhu, Client data misu
 | Account number | |
 | IFSC | |
 
-**Attach panna vendiya documents:** PAN-oda self-attested copy, cancelled cheque alladhu bank passbook front page, GST certificate (register aana irundhaa), matrum business-ku, signatory-oda adhikaaram (authority) pathi proof.
+**Attach panna vendiya documents:** PAN-oda self-attested copy, cancelled cheque alladhu bank passbook front page, GST certificate (register aana irundhaa), matrum firm, LLP alladhu company-na, signatory-oda adhikaaram (authority) pathi proof.
 
 ## Schedule B: Commission summary (Commission suruku)
 
@@ -149,11 +149,11 @@ Indha summary reference-ku mattum. Jaariyila irukkura Program Rules dhaan apply 
 
 | Item | Terms |
 | --- | --- |
-| Direct Sale (payment link) | Plan Price-la 25%, modhal payment matrum ovvoru Renewal |
-| Referral (link) | Plan Price-la 15%, modhal payment matrum ovvoru Renewal |
-| Lead Registration | Oru prospect-a 60 naalukku lock pannum, thani commission illai |
+| Direct Sale (payment link) | Plan Price-la 15%, modhal payment matrum ovvoru Renewal |
+| Referral (link) | Plan Price-la 10%, modhal payment matrum ovvoru Renewal |
+| Lead Registration | Oru prospect-a 60 naalukku lock pannum, thani commission illai. Lock mudinja apparam adhe Partner 30 naalukku adha thirumba register panna mudiyaadhu |
 | Referral Link validity | Modhal click-la irundhu 90 naal |
-| Partner discount | Direct Sales-la 25% varaikkum, Partner-oda sondha commission-la irundhu |
+| Partner discount | Direct Sales-la 15% varaikkum, Partner-oda sondha commission-la irundhu |
 | Payout | Ovvoru maasam 5-aam thedhi, bank transfer moolama |
 
 ## Signatures (Kaiyoppam)
@@ -164,7 +164,7 @@ Mela modhalla ezhudhiya thedhi-la Parties sign panni irukkaanga.
 | --- | --- |
 | Signature: | Signature: |
 | Name: | Name: |
-| Designation: | Designation (for a business): |
+| Designation: | Designation: |
 | Date: | Date: |
 | Place: | Place: |
 | Seal: | Seal (if any): |

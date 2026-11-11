@@ -12,8 +12,8 @@ You can go from application to your first client in about a week. Follow these 7
 
 Send your application to the iSuite AI partner team.
 
-- **How:** WhatsApp "PARTNER" to +91 82209 47112, or fill the partner application form.
-- **What to share:** Your name (or business name), mobile number, email, city, and how you plan to find clients.
+- **How:** WhatsApp "PARTNER" to +91 82209 47112, or fill the partner application form on isuite.ai.
+- **What to share:** Your name, business name, mobile number, email, city, and how you plan to find clients.
 - **Cost:** Free. There is no joining fee.
 
 **What happens next:** Our partner team reviews your application, usually within 2 working days, and may call you for a short chat.
@@ -60,7 +60,7 @@ Start with people who already know and trust you.
 
 - **Make a list of 20 businesses** you know personally: clinics, gyms, salons, coaching centres, turfs, builders or service companies.
 - **Look for the signs:** they reply to customers late, manage bookings on paper or WhatsApp, chase payments manually, or miss renewals.
-- **Register interested businesses as leads** in your dashboard. Each lead is locked to you for **60 days**, so no other partner can claim it.
+- **Register interested businesses as leads** in your dashboard. Each lead is locked to you for **60 days**, so no other partner can claim it. If the business has not bought by then, the lock ends and you cannot register the same lead again for the next 30 days.
 
 > **Before you register a lead:** If the dashboard says the business is already an iSuite AI customer or already being handled, you cannot claim it.
 
@@ -68,19 +68,19 @@ Start with people who already know and trust you.
 
 Choose the way that fits the client.
 
-### Option A: Direct Sale (you earn 25%)
+### Option A: Direct Sale (you earn 15%)
 
 Best when you have met the client and they are ready to start.
 
 1. Open **Payment links** in your dashboard and choose the client (or pick them from your leads).
 2. Choose the product and plan.
-3. Give a discount if needed, up to 25% of the plan price. The discount comes out of your own commission.
+3. Give a discount if needed, up to 15% of the plan price. The discount comes out of your own commission.
 4. Check the preview: what the client pays and what you earn.
 5. Set the expiry date for the link. After that date the link stops working and you can send a new one.
 6. Send the link to the client on WhatsApp.
-7. The client starts the **free trial** using the link. Our team contacts them for setup.
+7. The client starts the **free trial** using the link. Stay in touch with them during the trial. Once they make their first payment, our team does the setup.
 
-### Option B: Referral (you earn 15%)
+### Option B: Referral (you earn 10%)
 
 Best when the client wants to explore on their own first.
 
@@ -91,7 +91,7 @@ Best when the client wants to explore on their own first.
 
 > **Never collect money from a client.** Every payment must go through the official iSuite AI payment link. Cash, UPI or bank transfers to you are not allowed.
 
-**What happens next:** iSuite AI does the demo, setup, WhatsApp connection and support. You can follow the client's status in **Clients**.
+**What happens next:** Once the client has paid, iSuite AI does the setup, WhatsApp connection, training and support. You can follow the client's status in **Clients**.
 
 ## Step 7: Get paid
 

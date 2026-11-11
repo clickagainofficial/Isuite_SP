@@ -6,7 +6,7 @@ order: 2
 updated: 2026-11-11
 ---
 
-This Agreement is signed between iSuite AI and the Solution Partner named below. It lets the Partner bring clients to iSuite AI and earn commission under the Solution Partner Program Rules. The same Agreement applies whether the Partner is an individual or a business.
+This Agreement is signed between iSuite AI and the Solution Partner named below. It lets the Partner bring clients to iSuite AI and earn commission under the Solution Partner Program Rules.
 
 ## Parties
 
@@ -18,7 +18,7 @@ This Agreement is signed between iSuite AI and the Solution Partner named below.
 
 **And:**
 
-The person or business named in Schedule A (**"the Partner"**).
+The business named in Schedule A (**"the Partner"**).
 
 iSuite AI and the Partner are each a **"Party"** and together the **"Parties"**.
 
@@ -53,13 +53,13 @@ The Partner shall:
 iSuite AI shall:
 
 1. Give the Partner a partner login, Referral Links, payment links and sales material.
-2. Contact, onboard, set up and support every Client the Partner brings.
+2. Set up, guide and support every Client the Partner brings, once the Client has paid. iSuite AI does not give sales demos.
 3. Record every Lead Registration, Referral and Direct Sale, and show the Partner their sales and commission.
 4. Pay the Partner's commission as explained in clause 5 below and in the Program Rules.
 
 ## 5. Commission and payment
 
-1. The Partner earns commission on Qualified Sales at the rates in the Program Rules: currently **25%** for a Direct Sale and **15%** for a Referral, on the first payment and on every Renewal while this Agreement is in force.
+1. The Partner earns commission on Qualified Sales at the rates in the Program Rules: currently **15%** for a Direct Sale and **10%** for a Referral, on the first payment and on every Renewal while this Agreement is in force.
 2. Commission is paid by bank transfer on the 5th of every month, to the bank account in Schedule A, with a payout statement.
 3. iSuite AI deducts TDS where Indian income-tax law requires it. A GST-registered Partner shall raise a GST invoice for the commission, and iSuite AI shall pay GST on top.
 4. Commission is the Partner's only payment under this Agreement. The Partner is not entitled to salary, allowance or any other benefit.
@@ -128,9 +128,9 @@ The Partner shall pay iSuite AI for any loss, claim, penalty or cost that iSuite
 
 | Detail | Partner to fill in |
 | --- | --- |
-| Partner type | ☐ Individual ☐ Proprietorship ☐ Partnership firm ☐ LLP ☐ Company |
-| Full name (individual) or registered business name | |
-| Name of authorised signatory (for a business) | |
+| Partner type | ☐ Proprietorship ☐ Partnership firm ☐ LLP ☐ Company |
+| Registered business name | |
+| Name of authorised signatory | |
 | Address | |
 | Mobile and WhatsApp number | |
 | Email | |
@@ -141,7 +141,7 @@ The Partner shall pay iSuite AI for any loss, claim, penalty or cost that iSuite
 | Account number | |
 | IFSC | |
 
-**Documents to attach:** self-attested copy of PAN, cancelled cheque or bank passbook front page, GST certificate (if registered), and for a business, proof of authority of the signatory.
+**Documents to attach:** self-attested copy of PAN, cancelled cheque or bank passbook front page, GST certificate (if registered), and for a firm, LLP or company, proof of authority of the signatory.
 
 ## Schedule B: Commission summary
 
@@ -149,11 +149,11 @@ This summary is for reference. The Program Rules in force apply.
 
 | Item | Terms |
 | --- | --- |
-| Direct Sale (payment link) | 25% of Plan Price, first payment and every Renewal |
-| Referral (link) | 15% of Plan Price, first payment and every Renewal |
-| Lead Registration | Locks a prospect for 60 days, no separate commission |
+| Direct Sale (payment link) | 15% of Plan Price, first payment and every Renewal |
+| Referral (link) | 10% of Plan Price, first payment and every Renewal |
+| Lead Registration | Locks a prospect for 60 days, no separate commission. The same Partner cannot register it again for 30 days after the lock ends |
 | Referral Link validity | 90 days from first click |
-| Partner discount | Up to 25% on Direct Sales, out of the Partner's own commission |
+| Partner discount | Up to 15% on Direct Sales, out of the Partner's own commission |
 | Payout | 5th of every month, by bank transfer |
 
 ## Signatures
@@ -164,7 +164,7 @@ Signed by the Parties on the date first written above.
 | --- | --- |
 | Signature: | Signature: |
 | Name: | Name: |
-| Designation: | Designation (for a business): |
+| Designation: | Designation: |
 | Date: | Date: |
 | Place: | Place: |
 | Seal: | Seal (if any): |
