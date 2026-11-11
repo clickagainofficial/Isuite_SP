@@ -4,7 +4,6 @@ short: Program Rules
 summary: How Solution Partners earn, get paid and work with iSuite AI.
 order: 1
 updated: 2026-11-11
-status: Draft
 ---
 
 iSuite AI Solution Partner Program la, oru Partner iSuite AI-ku kondu vandhu sera client-ku commission kudukkuthu: **Direct Sale-ku 25%** and **Referral-ku 15%**, first payment la and ovvoru renewal la yum.

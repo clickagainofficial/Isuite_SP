@@ -26,7 +26,7 @@ export default function Sidebar({ docs, upcoming }: { docs: DocMeta[]; upcoming:
       <div className="side-bar">
         <Link href="/" className="side-logo" aria-label={`${site.name} ${site.section} home`} onClick={close}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/isuite-logo.webp" alt={site.name} className="side-logo-img" />
+          <img src="/isuite-logo-white.webp" alt={site.name} className="side-logo-img" />
         </Link>
         <button
           type="button"

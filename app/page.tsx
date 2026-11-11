@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getAllDocs, formatDate } from "@/lib/docs";
+import { site } from "@/lib/site";
 
 export default function Home() {
   const docs = getAllDocs();
@@ -17,6 +18,7 @@ export default function Home() {
           Everything a Solution Partner needs: how commission works, how payouts happen and the rules we all
           follow.
         </p>
+        <p className="hero-note">{site.tagline}</p>
       </section>
 
       <div className="doc-cards">

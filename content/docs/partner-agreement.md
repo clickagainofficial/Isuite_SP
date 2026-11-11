@@ -4,7 +4,6 @@ short: Partner Agreement
 summary: The agreement every Solution Partner signs before starting work.
 order: 2
 updated: 2026-11-11
-status: Draft
 ---
 
 This Agreement is signed between iSuite AI and the Solution Partner named below. It lets the Partner bring clients to iSuite AI and earn commission under the Solution Partner Program Rules. The same Agreement applies whether the Partner is an individual or a business.

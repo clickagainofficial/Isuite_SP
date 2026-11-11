@@ -4,7 +4,6 @@ short: Program Rules
 summary: How Solution Partners earn, get paid and work with iSuite AI.
 order: 1
 updated: 2026-11-11
-status: Draft
 ---
 
 The iSuite AI Solution Partner Program pays partners a commission for every client they bring to iSuite AI: **25% for a Direct Sale** and **15% for a Referral**, on the first payment and on every renewal.

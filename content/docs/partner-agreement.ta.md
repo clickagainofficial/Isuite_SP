@@ -4,7 +4,6 @@ short: Partner Agreement
 summary: The agreement every Solution Partner signs before starting work.
 order: 2
 updated: 2026-11-11
-status: Draft
 ---
 
 Indha Agreement iSuite AI-kkum keezhe sollirukkura Solution Partner-kkum idaiye pottukkappadudhu. Idhu moolama Partner, iSuite AI-kku clients-a konduvandhu, Solution Partner Program Rules padi commission sambaadikkalaam. Partner oru individual-a irundhaalum business-a irundhaalum idhe Agreement dhaan apply aagum.
