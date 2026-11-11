@@ -24,7 +24,7 @@ export default function Toc({ headings }: { headings: { id: string; text: string
 
   return (
     <nav className="toc" aria-label="On this page">
-      <p className="sidebar-label">On this page</p>
+      <p className="toc-label">On this page</p>
       <ul>
         {headings.map((h) => (
           <li key={h.id}>

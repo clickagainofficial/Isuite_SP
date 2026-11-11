@@ -58,4 +58,4 @@ npm run build
 
 ## Style
 
-Colors, fonts clickagain.in maadhiri: peach background, deep red accent, Poppins headings, Inter body. Ellaam `app/globals.css` mela `:root`-la irukku.
+Colors iSuite AI app maadhiri: dark navy sidebar, white cards, navy buttons, light blue accent. Fonts: Poppins headings, Inter body. Ellaam `app/globals.css` mela `:root`-la irukku.

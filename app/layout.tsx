@@ -17,26 +17,28 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export const viewport = { themeColor: "#fff6f0" };
+export const viewport = { themeColor: "#001b4f" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const docs = getAllDocs();
   return (
     <html lang="en">
       <body>
-        <Header />
-        <div className="shell">
+        <div className="app">
           <Sidebar docs={docs} upcoming={site.upcoming} />
-          <main className="main">{children}</main>
+          <div className="page">
+            <Header />
+            <main className="main">{children}</main>
+            <footer className="site-footer">
+              <span>
+                © {new Date().getFullYear()} {site.name} · Madurai, Tamil Nadu
+              </span>
+              <span>
+                Questions? <a href={site.whatsapp}>WhatsApp</a> · <a href={`mailto:${site.email}`}>{site.email}</a>
+              </span>
+            </footer>
+          </div>
         </div>
-        <footer className="site-footer">
-          <span>
-            © {new Date().getFullYear()} {site.name} · Madurai, Tamil Nadu
-          </span>
-          <span>
-            Questions? <a href={site.whatsapp}>WhatsApp</a> · <a href={`mailto:${site.email}`}>{site.email}</a>
-          </span>
-        </footer>
       </body>
     </html>
   );

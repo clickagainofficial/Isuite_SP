@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="hero-title">
           Bring clients.
           <br />
-          <span className="red">Earn on every renewal.</span>
+          <span className="accent">Earn on every renewal.</span>
         </h1>
         <p className="hero-sub">
           Everything a Solution Partner needs: how commission works, how payouts happen and the rules we all
