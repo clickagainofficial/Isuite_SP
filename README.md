@@ -21,6 +21,7 @@ Ella document-um `content/docs/` folder-la `.md` file-aa irukku. Code-ai thoda v
 - **Text maatha:** `content/docs/program-rules.md` open panni edit pannunga. `npm run dev` odittu irundhaa page udane update aagum.
 - **Date update:** File mela irukkra `updated: 2026-11-11` line-ai maathunga.
 - **Status:** `status: Draft` → final aanaa `status: Final` nu maathunga.
+- **Tanglish version:** Oru doc-kku `<same-name>.ta.md` file irundhaa (udhaaranam `program-rules.ta.md`), andha page-la English / Tanglish toggle varum. English file-ai maathinaa `.ta.md`-aiyum maathunga.
 
 ### Pudhu document (pudhu tab) serkka
 

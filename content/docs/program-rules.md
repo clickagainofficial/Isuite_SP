@@ -42,7 +42,7 @@ The Partner brings and convinces the Client. iSuite AI does everything after tha
 | Partner | iSuite AI |
 | --- | --- |
 | Find businesses that fit iSuite AI and explain the product honestly | Contact the Client, give demos where needed |
-| Bring the Client through a Referral Link, Lead Registration or Direct Sale | Set up the account, WhatsApp number, Meta approval and AI rules |
+| Bring the Client through a Referral Link or a Direct Sale, and register leads to claim them | Set up the account, WhatsApp number, Meta approval and AI rules |
 | Share accurate plan details and prices as published by iSuite AI | Collect all payments, issue GST invoices |
 | Keep Client information confidential | Provide all support, training and renewals for the Client |
 
@@ -61,7 +61,8 @@ The Partner earns through two sale methods. Lead Registration protects a prospec
 - **Renewals:** The same rate is paid on every Renewal, for as long as the Client renews and the Partner remains in the program.
 - **Upgrades:** When a Client moves to a higher plan, commission is paid at the same rate on the amount the Client pays for the upgrade.
 - **Free trial:** Every Direct Sale payment link starts with the plan's free trial. Commission is earned only when the Client's first payment is received after the trial ends.
-- **Basis:** Commission is calculated on the Plan Price excluding GST, less any Partner discount (section 8), on amounts iSuite AI has actually received.
+- **Link expiry:** Every payment link has an expiry date, set when the link is created. An expired link cannot be used. The Partner can send a new one.
+- **Basis:** Commission is the rate applied to the Plan Price excluding GST, minus any Partner discount (section 8). It is paid only on amounts iSuite AI has actually received.
 
 > **Example:** A clinic buys Clinic Growth (₹22,999 + GST) through a Direct Sale. The Partner earns 25% × ₹22,999 = ₹5,750, and ₹5,750 again on each yearly Renewal.
 
@@ -84,7 +85,7 @@ No commission is paid when:
 - The Client was already an iSuite AI customer before the Partner's referral, registration or payment link.
 - The Client was already in iSuite AI's own sales pipeline before the Partner registered them.
 - The Partner buys iSuite AI for their own business, or for a business they own, run or work in (self-referral). Example: a Partner who owns a gym earns no commission on the Gym plan bought for that gym.
-- The sale did not follow these rules, for example a lead never registered or a payment taken outside the official payment link.
+- The sale did not follow these rules, for example a payment taken outside the official payment link.
 - The sale was made through false claims, fraud or a breach of section 10.
 
 ## 8. Pricing, discounts and payments

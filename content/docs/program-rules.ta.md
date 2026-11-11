@@ -42,13 +42,13 @@ Partner Client-ah kondu vandhu convince pannanum. Adhukku apparam ellaam iSuite 
 | Partner | iSuite AI |
 | --- | --- |
 | iSuite AI-ku porutham aana business-ah kandupidichu, product-ah honest-aa explain pannanum | Client-ah contact pannum, thevai padra edathula demo kudukkum |
-| Client-ah Referral Link, Lead Registration illa Direct Sale moolama kondu varanum | Account, WhatsApp number, Meta approval and AI rules ellaam set up pannum |
+| Client-ah Referral Link illa Direct Sale moolama kondu varanum, and lead-ah register panni claim pannanum | Account, WhatsApp number, Meta approval and AI rules ellaam set up pannum |
 | iSuite AI publish pannina correct plan details and prices-ah share pannanum | Ellaa payment-ah yum collect pannum, GST invoice kudukkum |
 | Client information-ah confidential-aa vechukkanum | Client-ku ellaa support, training and renewals kudukkum |
 
 Partner oru independent contractor. Partner iSuite AI oda employee, agent illa legal representative kidaiyaadhu, and iSuite AI sarbaa contract sign panna illa promise panna mudiyaadhu.
 
-## 5. Edhukku earn pannalaam & commission rates (Ways to earn and commission rates)
+## 5. Eppadi earn pannalaam & commission rates (Ways to earn and commission rates)
 
 Partner rendu sale method moolama earn pannalaam. Lead Registration oru prospect-ah protect pannum, aana thaniyaa commission edhuvum kudukkaadhu.
 
@@ -61,7 +61,8 @@ Partner rendu sale method moolama earn pannalaam. Lead Registration oru prospect
 - **Renewals:** Ovvoru Renewal la yum adhey rate dhaan kudukkum, eppovarai Client renew pannuraangalo and Partner program la irukkaaro adhuvarai.
 - **Upgrades:** Oru Client periya plan-ku maarumbodhu, antha upgrade-ku Client katta amount mela adhey rate la commission kudukkum.
 - **Free trial:** Ovvoru Direct Sale payment link-um plan oda free trial la dhaan start aagum. Trial mudinja apparam Client oda first payment vandhaa dhaan commission earn aagum.
-- **Basis:** Commission-ah Plan Price mela, GST thaviri, Partner discount (section 8) kazhichu, iSuite AI real-aa vaangitta amount mela dhaan calculate pannum.
+- **Link expiry:** Ovvoru payment link-kkum oru expiry date irukkum, link create pannumbodhe set aagum. Expire aana link-ah use panna mudiyaadhu. Partner pudhu link anuppalaam.
+- **Basis:** Commission = GST illaadha Plan Price mela rate, adhula irundhu Partner discount (section 8) kazhichu. iSuite AI real-aa vaangitta amount-ku mattum dhaan kudukkum.
 
 > **Example:** Oru clinic Clinic Growth (₹22,999 + GST) ah Direct Sale moolama vaanguthu. Partner 25% × ₹22,999 = ₹5,750 earn pannuvaar, and ovvoru varsha Renewal la yum thirumba ₹5,750.
 
@@ -84,7 +85,7 @@ Idhu ellaam la commission kudukkaadhu:
 - Partner oda referral, registration illa payment link-ku munnaadiye Client already iSuite AI customer-aa irundhaa.
 - Partner register pannradhuku munnaadiye Client iSuite AI oda sontha sales pipeline la irundhaa.
 - Partner avanga sonta business-ku, illa avanga own panra, nadathura illa velai paakkura oru business-ku iSuite AI vaangina (self-referral). Example: oru gym sonta Partner, antha gym-ku vaangina Gym plan-ku commission kedaikkaadhu.
-- Sale indha rules-ah follow pannaama irundhaa, example lead-ah register pannaama irundhaa illa official payment link thaviri vera edathula payment vaangi irundhaa.
+- Sale indha rules-ah follow pannaama irundhaa, example official payment link thaviri vera edathula payment vaangi irundhaa.
 - Poi claim, fraud illa section 10 breach moolama sale pannina.
 
 ## 8. Pricing, discounts & payments
@@ -120,7 +121,7 @@ Partner Client munnaadi iSuite AI-ah represent pannuraar, so honest-aa nadandhuk
 - **Brand use:** iSuite AI name, logo and material-ah iSuite AI kudutha madiri mattum dhaan use pannanum. Official iSuite AI channel madiri therira website, ads, social page illa domain name create panna koodaadhu.
 - **Paid ads:** Written approval illaama Google, Meta illa vera ads la "iSuite" illa "iSuite AI" word-ku bid panna koodaadhu.
 - **Confidentiality:** Client details, Client-ku kudutha prices and iSuite AI oda business information-ah confidential-aa vechukkanum. Client personal data-ah, Client-ah iSuite AI-ku kondu varadhuku mattum, India oda data protection law padi use pannanum.
-- **Honest identity:** Ungala oru iSuite AI Solution Partner-nu introduce pan'nunga, iSuite AI employee-nu illa.
+- **Honest identity:** Ungala oru iSuite AI Solution Partner-nu introduce pannunga, iSuite AI employee-nu illa.
 
 ## 11. Termination (Program la irundhu vilagardhu)
 

@@ -104,7 +104,7 @@ Partner-oda indha Agreement breach, Clients kitta poy solradhu, Client data misu
 4. Indha Agreement mudinjappuram:
     1. End date-ku munnaadi Clients kattina sales-oda commission, adutha payout date-la kudukkappadum, aana fraud alladhu seriously breach irukkura sales-oda commission thavira.
     2. Renewal commission nirkum.
-    3. Partner iSuite AI name, logo matrum material use panradha niruthanum, matrum Confidential Information-a thiruppi kuduthuduvaanum alladhu delete pannanum.
+    3. Partner iSuite AI name, logo matrum material use panradha niruthanum, matrum Confidential Information-a thiruppi kudukkanum alladhu delete pannanum.
     4. Clients iSuite AI-oda customers-aa thodarum.
 5. Clause 7, 9, 10, 12 matrum 13 indha Agreement mudinjappuram-um thodarum.
 

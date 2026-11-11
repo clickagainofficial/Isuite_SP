@@ -6,7 +6,7 @@ order: 4
 updated: 2026-11-11
 ---
 
-Most partners go from application to their first client in about a week. Follow these 7 steps in order. Each step tells you what to do, what you need and what happens next.
+You can go from application to your first client in about a week. Follow these 7 steps in order. Each step tells you what to do, what you need and what happens next.
 
 ## Step 1: Apply
 
@@ -76,8 +76,9 @@ Best when you have met the client and they are ready to start.
 2. Choose the product and plan.
 3. Give a discount if needed, up to 25% of the plan price. The discount comes out of your own commission.
 4. Check the preview: what the client pays and what you earn.
-5. Send the link to the client on WhatsApp.
-6. The client starts the **free trial** using the link. Our team contacts them for setup.
+5. Set the expiry date for the link. After that date the link stops working and you can send a new one.
+6. Send the link to the client on WhatsApp.
+7. The client starts the **free trial** using the link. Our team contacts them for setup.
 
 ### Option B: Referral (you earn 15%)
 

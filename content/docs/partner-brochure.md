@@ -22,6 +22,8 @@ iSuite AI is **industry-specific business software with AI built in**. An AI age
 | Coaching | ₹11,999 |
 | Real Estate | ₹19,999 |
 
+The AI agent is included in most plans. Salon Basic and Field Service Basic do not include it, so check the plan before you promise it.
+
 Every business you meet that runs on WhatsApp, a notebook or Excel is a possible client.
 
 ## Who should join
