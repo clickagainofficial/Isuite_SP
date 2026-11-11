@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { LayoutGrid, ArrowUpRight } from "lucide-react";
 import type { DocMeta } from "@/lib/docs";
 import { site } from "@/lib/site";
 
@@ -14,13 +15,14 @@ export default function Sidebar({ docs, upcoming }: { docs: DocMeta[]; upcoming:
   return (
     <aside className="side" aria-label="Documents">
       <Link href="/" className="side-logo" aria-label={`${site.name} ${site.section} home`}>
-        iSuite<span>AI</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/isuite-logo.webp" alt={site.name} className="side-logo-img" />
       </Link>
 
       <nav className="side-nav">
         <Link href="/" className={`side-item${onHome ? " active" : ""}`}>
           <span className="side-icon" aria-hidden>
-            ⌂
+            <LayoutGrid size={17} strokeWidth={2} />
           </span>
           <span className="side-name">Overview</span>
         </Link>
@@ -49,7 +51,7 @@ export default function Sidebar({ docs, upcoming }: { docs: DocMeta[]; upcoming:
       <div className="side-foot">
         <a href={site.mainSite} target="_blank" rel="noreferrer" className="side-item">
           <span className="side-icon" aria-hidden>
-            ↗
+            <ArrowUpRight size={17} strokeWidth={2} />
           </span>
           <span className="side-name">isuite.ai</span>
         </a>
