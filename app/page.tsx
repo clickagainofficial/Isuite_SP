@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { getAllDocs, formatDate } from "@/lib/docs";
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
               Updated {formatDate(d.updated)}
             </span>
             <span className="doc-card-go" aria-hidden>
-              →
+              <ArrowRight size={16} strokeWidth={2.2} />
             </span>
           </Link>
         ))}

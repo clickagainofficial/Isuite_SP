@@ -54,12 +54,21 @@ a { color: inherit; }
   overflow-y: auto;
 }
 .side-logo {
-  display: block; margin: 2px 6px 20px; padding: 12px 14px;
-  background: var(--white); border-radius: 12px;
+  align-self: flex-start; margin: 2px 6px 18px; padding: 8px 10px;
+  background: var(--white); border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
   text-decoration: none;
 }
-.side-logo-img { display: block; width: 100%; max-width: 150px; height: auto; }
+.side-logo-img { display: block; width: 112px; height: auto; }
+.side-bar { display: flex; align-items: center; justify-content: space-between; }
+.side-toggle {
+  display: none; align-items: center; justify-content: center;
+  width: 40px; height: 40px; flex: none;
+  border: 0; border-radius: 9px; cursor: pointer;
+  background: rgba(255, 255, 255, 0.1); color: var(--white);
+}
+.side-toggle:hover { background: rgba(255, 255, 255, 0.18); }
+.side-menu { display: flex; flex-direction: column; flex: 1; min-height: 0; }
 .side-nav { display: flex; flex-direction: column; gap: 2px; flex: 1; }
 .side-section {
   margin: 18px 10px 6px;
@@ -101,7 +110,7 @@ a { color: inherit; }
 .topbar-actions { display: flex; gap: 8px; }
 
 .btn, .btn-ghost {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   border-radius: 999px; padding: 8px 16px;
   font-family: var(--font-body); font-weight: 600; font-size: 13.5px;
   text-decoration: none; white-space: nowrap; cursor: pointer;
@@ -159,7 +168,25 @@ a { color: inherit; }
   min-width: 0;
 }
 .doc-head { padding-bottom: 22px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
-.doc-meta { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--ink-50); margin-bottom: 12px; }
+.doc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 13px; color: var(--ink-50); margin-bottom: 12px; }
+
+/* Language toggle (English / Tanglish) */
+.lang-toggle {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 3px; border-radius: 999px;
+  background: var(--blue-soft); border: 1px solid var(--line-strong);
+}
+.lang-toggle-icon { color: var(--ink-50); margin: 0 2px 0 5px; }
+.lang-opt {
+  border: 0; background: transparent; cursor: pointer;
+  padding: 4px 11px; border-radius: 999px;
+  font-family: var(--font-body); font-size: 12.5px; font-weight: 600;
+  color: var(--ink-50); white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-opt:hover { color: var(--navy); }
+.lang-opt.active { background: var(--navy); color: var(--white); }
+.print-btn { display: inline-flex; align-items: center; gap: 6px; }
 .doc-title {
   margin: 0; font-family: var(--font-display); font-weight: 600;
   font-size: clamp(26px, 3.2vw, 36px); line-height: 1.15; letter-spacing: -0.8px; color: var(--ink);
@@ -249,15 +276,27 @@ a { color: inherit; }
   .app { grid-template-columns: minmax(0, 1fr); }
   .side {
     position: sticky; top: 0; z-index: 50; height: auto;
-    flex-direction: row; align-items: center; gap: 8px; padding: 10px 12px;
-    overflow-x: auto; scrollbar-width: none;
+    flex-direction: column; gap: 0; padding: 0; overflow: visible;
   }
-  .side::-webkit-scrollbar { display: none; }
-  .side-logo { margin: 0 4px 0 0; padding: 5px 9px; border-radius: 9px; flex: none; }
-  .side-logo-img { max-width: 92px; }
-  .side-nav { flex-direction: row; gap: 4px; flex: none; }
-  .side-section, .side-foot, .side-item.disabled { display: none; }
-  .side-item { white-space: nowrap; padding: 7px 10px; font-size: 13.5px; }
+  .side-bar { padding: 10px 12px; }
+  .side-logo { align-self: center; margin: 0; padding: 4px 8px; border-radius: 8px; }
+  .side-logo-img { width: 80px; }
+  .side-toggle { display: inline-flex; }
+
+  /* Sections collapse into a hamburger dropdown */
+  .side-menu {
+    display: none; flex: none;
+    position: absolute; top: 100%; left: 0; right: 0;
+    background: var(--navy-800);
+    padding: 8px 12px 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 18px 32px -16px rgba(0, 0, 0, 0.65);
+    max-height: calc(100vh - 62px); overflow-y: auto;
+  }
+  .side.open .side-menu { display: flex; }
+  .side-nav { flex: none; }
+  .side-foot { margin-top: 10px; }
+
   .topbar, .print-btn { display: none; }
   .main { padding-top: 16px; }
 }

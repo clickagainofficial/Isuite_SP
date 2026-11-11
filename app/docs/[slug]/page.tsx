@@ -1,9 +1,5 @@
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeSlug from "rehype-slug";
-import Toc from "@/components/Toc";
-import PrintButton from "@/components/PrintButton";
+import DocView from "@/components/DocView";
 import { getAllDocs, getDoc, formatDate } from "@/lib/docs";
 
 export const dynamicParams = false;
@@ -24,34 +20,15 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
   if (!doc) notFound();
 
   return (
-    <div className="doc-layout">
-      <article className="doc">
-        <header className="doc-head">
-          <div className="doc-meta">
-            {doc.status && <span className="pill">{doc.status}</span>}
-            <span>Updated {formatDate(doc.updated)}</span>
-            <PrintButton />
-          </div>
-          <h1 className="doc-title">{doc.title}</h1>
-          {doc.summary && <p className="doc-summary">{doc.summary}</p>}
-        </header>
-        <div className="prose">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeSlug]}
-            components={{
-              table: ({ children }) => (
-                <div className="table-wrap">
-                  <table>{children}</table>
-                </div>
-              ),
-            }}
-          >
-            {doc.body}
-          </ReactMarkdown>
-        </div>
-      </article>
-      <Toc headings={doc.headings} />
-    </div>
+    <DocView
+      title={doc.title}
+      summary={doc.summary}
+      status={doc.status}
+      updatedLabel={formatDate(doc.updated)}
+      body={doc.body}
+      headings={doc.headings}
+      bodyTa={doc.bodyTa}
+      headingsTa={doc.headingsTa}
+    />
   );
 }
