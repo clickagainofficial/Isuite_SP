@@ -7,7 +7,7 @@ order: 103
 updated: 2026-11-16
 ---
 
-₹2,50,000 a month is the **ceiling**, not a target. Spend only what each line needs. The plan comes to **₹2,50,000 a month**, exactly the ceiling. Any new cost needs a cut somewhere else first, approved by the General Manager.
+₹2,50,000 a month is the **ceiling**, not a target. Spend only what each line needs. The plan comes to **₹2,45,000 a month**, ₹5,000 under the ceiling. Any new cost must fit inside that ₹5,000, or needs a cut somewhere else first, approved by the General Manager.
 
 ## Monthly budget
 
@@ -24,20 +24,22 @@ updated: 2026-11-16
 | Meta ads: Direct free trials | 20,000 |
 | **Meta ads total** | **50,000** |
 | **Tools** | **39,000** |
-| Team event (turf, movie or games) | 8,000 |
-| Top Performer reward | 3,000 |
-| PR article | 7,000 |
-| **Team and PR total** | **18,000** |
-| **Grand total** | **2,50,000** |
+| Team event (turf, movie or games) | 5,000 |
+| Top Performer reward | 2,000 |
+| PR article | 6,000 |
+| **Team and PR total** | **13,000** |
+| **Grand total** | **2,45,000** |
+| Not spent, under the ₹2,50,000 ceiling | 5,000 |
 
 ## Where the money goes
 
-| Part | ₹/month | Share |
+| Part | ₹/month | Share of ₹2.5 lakh |
 | --- | --- | --- |
 | Salaries | 1,43,000 | 57% |
 | Meta ads | 50,000 | 20% |
 | Tools | 39,000 | 16% |
-| Team and PR | 18,000 | 7% |
+| Team and PR | 13,000 | 5% |
+| Not spent | 5,000 | 2% |
 | **Total** | **2,50,000** | **100%** |
 
 ## Salaries

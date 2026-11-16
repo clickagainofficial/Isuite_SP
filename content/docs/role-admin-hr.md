@@ -27,7 +27,7 @@ Admin & HR keeps the team running: hiring, HR letters, the morning meeting, the 
 ### Morning meeting and team culture
 
 - Run the 10:30 AM morning meeting every working day: pledge, yesterday's numbers, today's target. 15 minutes.
-- Plan one team event a month for ₹8,000: turf games, a movie or games. Usually the 3rd Saturday. In January, the office Pongal celebration on 14 January.
+- Plan one team event a month for ₹5,000: turf games, a movie or games. Usually the 3rd Saturday. In January, the office Pongal celebration on 14 January.
 - Work out the Top Performer score and announce the winner on the last working day.
 
 ### KPI board
@@ -53,6 +53,7 @@ Admin & HR keeps the team running: hiring, HR letters, the morning meeting, the 
 | Every working day, 10:30 AM | Run the morning meeting + pledge |
 | Every working day, 6:00 PM | Update the KPI board |
 | Every working day | Record expenses and attendance |
+| Monday, 11:00 AM | Weekly planning: show last week's numbers, then share the weekly sheet with the team by 12:00 noon |
 | Friday | Tell the GM who is below target |
 | 1st to 3rd of the month | Build the SP payout list |
 | 5th | Pay partners, send statements |

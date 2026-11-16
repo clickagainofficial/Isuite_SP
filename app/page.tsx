@@ -4,6 +4,7 @@ import { getAllDocs } from "@/lib/docs";
 import { site } from "@/lib/site";
 import SectionIcon from "@/components/SectionIcon";
 import NowBanner from "@/components/NowBanner";
+import TodayWeek from "@/components/TodayWeek";
 
 export default function Home() {
   const docs = getAllDocs();
@@ -21,6 +22,7 @@ export default function Home() {
       </header>
 
       <NowBanner />
+      <TodayWeek />
 
       <div className="sec-grid">
         {site.sections.map((sec) => {

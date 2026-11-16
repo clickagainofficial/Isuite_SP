@@ -49,7 +49,7 @@ The General Manager (GM) leads the iSuite AI team and owns the 90-day targets. T
 | --- | --- |
 | Every working day, 10:30 AM | Morning meeting |
 | Every working day, 6:00 PM | Check the KPI board and ad spend |
-| Monday, 10:45 AM | Weekly planning |
+| Monday, 11:00 AM | Run weekly planning ([agenda](/docs/team-operating-plan/#weekly-planning)) |
 | Friday, 5:00 PM | Weekly review + ad spend check |
 | Saturday, 11:00 AM | Video batch shoot with Marketing, approve the week's videos |
 | 1st working day | Set monthly targets |
@@ -63,10 +63,10 @@ The General Manager (GM) leads the iSuite AI team and owns the 90-day targets. T
 | --- | --- |
 | New SPs signed (team) | 30 by 31 March 2027 |
 | Direct paying customers (team) | 25 by 31 March 2027 |
-| Monthly spend | Inside the ₹2,50,000 ceiling (plan uses all of it) |
+| Monthly spend | Inside the ₹2,50,000 ceiling (plan: ₹2,45,000) |
 | SP payout list | Approved before the 5th, every month |
 
 ## November and December
 
-- **November:** hire Admin & HR first, then hire the other 4 roles with Admin & HR by 30 November.
+- **November:** hire Admin & HR first (job posted 16 November, joins 23 November), then hire the other 4 roles with Admin & HR by 30 November. The day-by-day hiring dates are in the [Team Calendar](/docs/team-calendar/).
 - **December:** approve the training plan. Approve the ad creatives and the 7 SP demo videos that Marketing makes by 18 December, and the test ads from 21 December.

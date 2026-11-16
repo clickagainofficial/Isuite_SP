@@ -18,7 +18,7 @@ This is the iSuite AI team's operating plan: the team, each role's work, the tar
 | Team | General Manager + 5: Admin & HR, Training Head, Marketing, Partner Relations, Customer Support |
 | Main goal | Bring Solution Partners (SPs) who sell. Direct customers come only from Meta ads at first |
 | Targets, Jan–Mar 2027 | 30 new SPs signed · 25 direct paying customers · 70% of clients retained |
-| Monthly budget | ₹2,50,000, the full ceiling |
+| Monthly budget | ₹2,45,000, inside a ₹2,50,000 ceiling |
 | Working days | Monday to Saturday, 2 shifts |
 
 ## Timeline
@@ -66,7 +66,24 @@ The General Manager gives the final approval on everything. The person who prepa
 - **Working days:** Monday to Saturday. Sunday off.
 - **10:30 AM morning meeting:** 15 minutes, everyone from both shifts. Pledge, yesterday's numbers, today's target. Admin & HR runs it.
 - **6:00 PM KPI update:** everyone sends their numbers. Admin & HR updates the KPI board before the early shift leaves.
-- **Monday planning and Friday review:** the GM plans the week on Monday and checks it against targets and ad spend on Friday.
+- **Monday 11:00 AM weekly planning:** the GM sets the week's targets and tasks with the team. Agenda below.
+- **Friday 5:00 PM review:** the GM checks the week against Monday's plan, the targets and ad spend. In December, the Friday slot is the weekly training test.
+
+## Weekly planning
+
+Every Monday at **11:00 AM**, right after the morning meeting. **30 minutes.** The General Manager runs it and the whole team attends. It starts on Monday 7 December 2026, the first Monday of training.
+
+**Why:** everyone leaves the room knowing their number for the week, the week's deadlines and who owns each one.
+
+| # | What we cover | Time | Led by |
+| --- | --- | --- | --- |
+| 1 | **Last week:** numbers against target from the KPI board. What worked, what did not | 5 min | Admin & HR |
+| 2 | **This week's target for each person:** each person says their number, the GM confirms it. In December these are training goals; from January, the role KPIs | 10 min | GM, everyone |
+| 3 | **This week's calendar:** deadlines, events and who owns each one | 5 min | GM |
+| 4 | **Marketing:** ad money split between the 2 funnels, the Saturday shoot list, any PR or campaign due | 5 min | GM, Marketing |
+| 5 | **Blockers and help needed:** what is stuck, who needs help. The Training Head notes who needs a refresher | 5 min | Everyone |
+
+**After the meeting:** Admin & HR writes each person's target and the week's tasks on the weekly sheet and shares it with the team by 12:00 noon. On Friday, the review checks the week against this sheet.
 
 ## Our pledge
 
@@ -102,7 +119,7 @@ On the last working day of every month, Admin & HR announces the Top Performer. 
 | Attendance | 15% | On time for the 10:30 AM meeting, no unplanned leave |
 | Behaviour | 15% | GM's score: teamwork, client and partner feedback, following the rules |
 
-**Reward:** ₹3,000 (cash or gift voucher) and a certificate. The General Manager is not in the contest.
+**Reward:** ₹2,000 (cash or gift voucher) and a certificate. The General Manager is not in the contest.
 
 ## Documents in this plan
 

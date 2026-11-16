@@ -1,24 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
 import { CalendarDays, ArrowRight } from "lucide-react";
-import { phases, phaseOn, formatRange, toISO, fromISO, buildEvents, planStart, planEnd } from "@/lib/team-plan";
+import { phases, phaseOn, formatRange, fromISO, planStart, planEnd } from "@/lib/team-plan";
+import { useToday } from "@/lib/use-today";
 
 const shortDate = (iso: string) => fromISO(iso).toLocaleDateString("en-IN", { day: "numeric", month: "short" });
 
-// One line on the Overview page: where the team plan is today, what is next, and today's events.
+// One line on the Overview page: where the team plan is today and what is next.
+// Today's and the next 7 days' work are in TodayWeek, just below.
 export default function NowBanner() {
-  // Set after mount, so the server and the first client render match.
-  const [today, setToday] = useState<string | null>(null);
-  useEffect(() => {
-    setToday(toISO(new Date()));
-  }, []);
-  const events = useMemo(() => buildEvents(), []);
+  const today = useToday();
 
   const phase = today ? phaseOn(today) : undefined;
   const next = phase ? phases[phases.indexOf(phase) + 1] : undefined;
-  const todays = today ? (events[today] ?? []) : [];
 
   let tag = "Team plan";
   let main = formatRange(planStart, planEnd);
@@ -42,9 +37,6 @@ export default function NowBanner() {
         <div className="now-text">
           <strong>{main}</strong>
           {sub && <span className="now-sub">{sub}</span>}
-          {todays.length > 0 && (
-            <span className="now-today">Today: {todays.map((e) => e.title).join(" · ")}</span>
-          )}
         </div>
       </div>
       <Link href="/docs/team-calendar/" className="now-link">

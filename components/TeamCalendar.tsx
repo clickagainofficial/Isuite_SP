@@ -1,15 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { CalendarDays, Clock } from "lucide-react";
 import {
   buildEvents,
   categories,
+  dailyEvents,
   dailyRhythm,
   festivalOn,
   formatRange,
   fromISO,
-  isWorkingDay,
+  hasDaily,
   phaseForMonth,
   planEnd,
   planMonths,
@@ -19,8 +21,6 @@ import {
 } from "@/lib/team-plan";
 
 const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-// Daily meeting and KPI update run from the first training day.
-const DAILY_FROM = "2026-12-01";
 
 function monthName(year: number, month: number, style: "long" | "short" = "long") {
   return new Date(year, month, 1).toLocaleDateString("en-IN", { month: style, year: "numeric" });
@@ -59,13 +59,19 @@ function dayNote(iso: string): string | null {
   return null;
 }
 
-function EventRow({ e }: { e: Pick<DayEvent, "title" | "time" | "owner"> & { category?: DayEvent["category"] } }) {
+function EventRow({ e }: { e: Pick<DayEvent, "title" | "time" | "owner" | "about" | "link"> & { category?: DayEvent["category"] } }) {
   return (
     <div className={`cal-ev${e.category ? ` cat-${e.category}` : " is-daily"}`}>
       <span className="cal-ev-time">{e.time ?? ""}</span>
       <span className="cal-ev-body">
         <span className="cal-ev-title">{e.title}</span>
         {e.owner && <span className="cal-ev-owner">{e.owner}</span>}
+        {e.about && <span className="cal-ev-about">{e.about}</span>}
+        {e.link && (
+          <Link href={e.link.href} className="cal-ev-link">
+            {e.link.label}
+          </Link>
+        )}
       </span>
     </div>
   );
@@ -203,7 +209,7 @@ function MonthView({
   const shownList = events[shownDay] ?? [];
   const shownFest = festivalOn(shownDay);
   const shownNote = dayNote(shownDay);
-  const showDaily = shownDay >= DAILY_FROM && shownDay <= planEnd && isWorkingDay(fromISO(shownDay));
+  const showDaily = hasDaily(shownDay);
 
   return (
     <section className={`cal-month${isActive ? " is-active" : ""}`} aria-label={monthName(year, month)}>
@@ -276,11 +282,11 @@ function MonthView({
             {shownFest && <span className="cal-fest-pill">{shownFest.title}</span>}
           </div>
           {shownNote && <p className="cal-day-note">{shownNote}</p>}
-          {showDaily && <EventRow e={{ time: "10:30 AM", title: "Morning meeting + pledge", owner: "Admin & HR" }} />}
+          {showDaily && <EventRow e={dailyEvents[0]} />}
           {shownList.map((e, k) => (
             <EventRow key={k} e={e} />
           ))}
-          {showDaily && <EventRow e={{ time: "6:00 PM", title: "KPI update", owner: "Everyone → Admin & HR" }} />}
+          {showDaily && <EventRow e={dailyEvents[1]} />}
           {!shownList.length && !showDaily && !shownNote && <p className="cal-day-note">Nothing planned.</p>}
         </div>
 

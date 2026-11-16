@@ -18,6 +18,8 @@ export type CalEvent = {
   category: Category;
   time?: string;
   owner?: string;
+  about?: string; // plain explanation, shown when someone opens the day
+  link?: { href: string; label: string }; // the doc that explains it
 };
 
 export type DayEvent = CalEvent & { kind: "weekly" | "monthly" | "once" };
@@ -128,13 +130,37 @@ export const festivals: { date: string; title: string; closed: boolean }[] = [
 
 // ---------- Weekly rhythm ----------
 // weekday: 0 = Sunday, 1 = Monday ... 6 = Saturday
+// `about` is the plain explanation shown when someone opens the day.
 
 const weekly: (CalEvent & { weekday: number; from: string; to: string })[] = [
-  { weekday: 1, from: "2026-12-01", to: "2027-03-31", title: "Weekly planning", time: "10:45 AM", owner: "GM + team", category: "meeting" },
-  { weekday: 3, from: "2027-01-01", to: "2027-03-31", title: "SP webinar", time: "4:00 PM", owner: "Partner Relations", category: "partner" },
-  { weekday: 5, from: "2026-12-01", to: "2026-12-31", title: "Weekly training test", time: "5:00 PM", owner: "Training Head", category: "people" },
-  { weekday: 5, from: "2027-01-01", to: "2027-03-31", title: "Weekly review + ad spend check", time: "5:00 PM", owner: "GM", category: "meeting" },
-  { weekday: 6, from: "2026-12-01", to: "2027-03-31", title: "Video batch shoot", time: "11:00 AM", owner: "Marketing", category: "marketing" },
+  {
+    weekday: 1, from: "2026-12-01", to: "2027-03-31",
+    title: "Weekly planning", time: "11:00 AM", owner: "GM + team", category: "meeting",
+    about: "30 minutes, right after the morning meeting. Last week's numbers, each person's target for this week, the week's deadlines, the marketing plan and blockers. Admin & HR shares the weekly sheet by 12:00 noon.",
+    link: { href: "/docs/team-operating-plan/#weekly-planning", label: "See the agenda" },
+  },
+  {
+    weekday: 3, from: "2027-01-01", to: "2027-03-31",
+    title: "SP webinar", time: "4:00 PM", owner: "Partner Relations", category: "partner",
+    about: "Partner Relations trains Solution Partners online: the product, the pitch, and how to send referral and payment links, using Marketing's demo videos.",
+    link: { href: "/docs/role-partner-relations/", label: "Partner Relations card" },
+  },
+  {
+    weekday: 5, from: "2026-12-01", to: "2026-12-31",
+    title: "Weekly training test", time: "5:00 PM", owner: "Training Head", category: "people",
+    about: "The Training Head tests everyone on the week's training: the product test, then the role test, then mock calls and tasks, then the final test. The pass mark is 80%.",
+    link: { href: "/docs/role-training-head/", label: "Training plan" },
+  },
+  {
+    weekday: 5, from: "2027-01-01", to: "2027-03-31",
+    title: "Weekly review + ad spend check", time: "5:00 PM", owner: "GM", category: "meeting",
+    about: "The GM checks the week against Monday's plan and the targets. Admin & HR says who is below target. Marketing brings the cost per lead, and the GM decides where next week's ad money goes.",
+  },
+  {
+    weekday: 6, from: "2026-12-01", to: "2027-03-31",
+    title: "Video batch shoot", time: "11:00 AM", owner: "Marketing", category: "marketing",
+    about: "Marketing shoots the coming week's daily videos (6 a week) in one go. The GM approves the videos and appears in them when needed.",
+  },
 ];
 
 // ---------- Monthly rhythm ----------
@@ -147,33 +173,141 @@ type MonthlyRule =
   | "thirdSaturday"
   | "lastWorkingDay";
 
+const payoutSop = { href: "/docs/monthly-payout-sop/", label: "Monthly Payout SOP" };
+
 const monthly: (CalEvent & { rule: MonthlyRule; months: string[] })[] = [
-  { rule: "firstWorkingDay", months: ["2027-01", "2027-02", "2027-03"], title: "Monthly targets set", owner: "GM", category: "meeting" },
-  { rule: "payoutApproval", months: ["2027-02", "2027-03"], title: "GM approves SP payout list", owner: "GM", category: "money" },
-  { rule: "payoutDay", months: ["2027-02", "2027-03"], title: "SP commission payout", owner: "Admin & HR", category: "money" },
-  { rule: "secondThursday", months: ["2027-01", "2027-02", "2027-03"], title: "PR article release", owner: "Marketing", category: "marketing" },
-  { rule: "thirdSaturday", months: ["2026-12", "2027-02", "2027-03"], title: "Team event: turf, movie or games", owner: "Admin & HR", category: "people" },
-  { rule: "lastWorkingDay", months: ["2027-01", "2027-02", "2027-03"], title: "Top Performer award + budget review", owner: "Admin & HR, GM", category: "people" },
+  {
+    rule: "firstWorkingDay", months: ["2027-01", "2027-02", "2027-03"],
+    title: "Monthly targets set", owner: "GM", category: "meeting",
+    about: "The GM sets each person's targets for the month from the 90-day targets.",
+    link: { href: "/docs/team-targets/", label: "90-Day Targets" },
+  },
+  {
+    rule: "payoutApproval", months: ["2027-02", "2027-03"],
+    title: "GM approves SP payout list", owner: "GM", category: "money",
+    about: "Admin & HR prepares the list of commission owed to each Solution Partner: every client payment received since the last payout, the partner it belongs to (Partner Relations confirms), 15% or 10% commission, TDS and GST. The GM checks and approves it on the working day before payout day. Nothing is paid without this approval.",
+    link: payoutSop,
+  },
+  {
+    rule: "payoutDay", months: ["2027-02", "2027-03"],
+    title: "SP commission payout", owner: "Admin & HR", category: "money",
+    about: "Admin & HR pays each Solution Partner the approved commission by bank transfer to the account verified in KYC, and sends each partner a statement. If the 5th is a Sunday or holiday, payout moves to the next working day. The first payout is on 5 February 2027, for sales paid in January.",
+    link: payoutSop,
+  },
+  {
+    rule: "secondThursday", months: ["2027-01", "2027-02", "2027-03"],
+    title: "PR article release", owner: "Marketing", category: "marketing",
+    about: "Marketing publishes the month's PR article (₹6,000 budget) and shares it on social media. The GM approves it before release.",
+  },
+  {
+    rule: "thirdSaturday", months: ["2026-12", "2027-02", "2027-03"],
+    title: "Team event: turf, movie or games", owner: "Admin & HR", category: "people",
+    about: "One team event a month, ₹5,000 budget: turf games, a movie or games. Admin & HR plans it. January's event is the office Pongal celebration.",
+  },
+  {
+    rule: "lastWorkingDay", months: ["2027-01", "2027-02", "2027-03"],
+    title: "Top Performer award + budget review", owner: "Admin & HR, GM", category: "people",
+    about: "Admin & HR announces the Top Performer: 70% target achieved, 15% attendance, 15% behaviour. The reward is ₹2,000 and a certificate. Then Admin & HR and the GM compare the month's spend with the budget.",
+    link: { href: "/docs/team-operating-plan/#top-performer-of-the-month", label: "How the score works" },
+  },
 ];
 
 // ---------- One-off dates ----------
 
 const oneOff: (CalEvent & { date: string })[] = [
-  { date: "2026-11-16", title: "Hiring starts: Admin & HR first", owner: "GM", category: "people" },
-  { date: "2026-11-30", title: "All 5 roles hired", owner: "GM, Admin & HR", category: "milestone" },
-  { date: "2026-12-01", title: "Training month starts · regular salary starts", owner: "Training Head", category: "milestone" },
-  { date: "2026-12-12", title: "SOPs and HR letters ready", owner: "Admin & HR", category: "people" },
-  { date: "2026-12-18", title: "Ad creatives + 7 SP demo videos ready", owner: "Marketing", category: "marketing" },
-  { date: "2026-12-21", title: "Test ads start (small budget)", owner: "Marketing", category: "marketing" },
-  { date: "2026-12-31", title: "Final training tests + best trainee + budget review", owner: "Training Head, GM", category: "people" },
-  { date: "2027-01-01", title: "Launch: Meta ads live in both funnels", owner: "GM", category: "milestone" },
-  { date: "2027-01-08", title: "Pongal campaign live", owner: "Marketing", category: "marketing" },
-  { date: "2027-01-14", title: "Office Pongal celebration", owner: "Admin & HR", category: "people" },
-  { date: "2027-01-18", title: "Cost-per-lead check: reset Feb & Mar targets", owner: "GM", category: "money" },
-  { date: "2027-01-30", title: "Customer how-to guides ready", owner: "Marketing", category: "marketing" },
-  { date: "2027-02-01", title: "Month 2 · Scale: more spend on winning ads", owner: "GM", category: "milestone" },
-  { date: "2027-03-01", title: "Month 3 · Optimise", owner: "GM", category: "milestone" },
-  { date: "2027-03-31", title: "90-day review + plan for April–June", owner: "GM", category: "milestone" },
+  // Hiring steps: suggested dates inside the 15–30 Nov plan. The GM moves them as needed.
+  {
+    date: "2026-11-16", title: "Hiring starts: post the Admin & HR job", owner: "GM", category: "people",
+    about: "The GM posts the Admin & HR job. Admin & HR is hired first, so they can help hire the other 4 roles.",
+  },
+  {
+    date: "2026-11-18", title: "Admin & HR interviews", owner: "GM", category: "people",
+    about: "The GM interviews the shortlisted Admin & HR candidates and picks one.",
+  },
+  {
+    date: "2026-11-20", title: "Admin & HR offer letter sent", owner: "GM", category: "people",
+    about: "The GM sends the offer letter to the chosen Admin & HR candidate.",
+    link: { href: "/docs/hr-letters/", label: "HR Letters" },
+  },
+  {
+    date: "2026-11-21", title: "Post jobs: Training Head, Marketing, Partner Relations, Customer Support", owner: "GM", category: "people",
+    about: "The GM posts the other 4 jobs now, so applications are waiting when Admin & HR joins.",
+  },
+  {
+    date: "2026-11-23", title: "Admin & HR joins · starts screening applications", owner: "Admin & HR", category: "people",
+    about: "Admin & HR joins, signs the appointment letter and confidentiality agreement, and shortlists candidates for the 4 roles. Days worked in November are paid per day.",
+  },
+  {
+    date: "2026-11-25", title: "Interviews: Training Head, Marketing", owner: "GM, Admin & HR", category: "people",
+    about: "The GM and Admin & HR interview the shortlisted Training Head and Marketing candidates.",
+  },
+  {
+    date: "2026-11-26", title: "Interviews: Partner Relations, Customer Support", owner: "GM, Admin & HR", category: "people",
+    about: "The GM and Admin & HR interview the shortlisted Partner Relations and Customer Support candidates.",
+  },
+  {
+    date: "2026-11-28", title: "Offer letters to the 4 new hires", owner: "Admin & HR", category: "people",
+    about: "Admin & HR sends offer letters to the 4 chosen candidates. The GM signs them.",
+    link: { href: "/docs/hr-letters/", label: "HR Letters" },
+  },
+  {
+    date: "2026-11-30", title: "All 5 roles hired · joining day is 1 Dec", owner: "GM, Admin & HR", category: "milestone",
+    about: "Every role is filled. The 4 new hires join on 1 December, when training and regular salary start.",
+  },
+  {
+    date: "2026-12-01", title: "Training month starts · regular salary starts", owner: "Training Head", category: "milestone",
+    about: "December is the training month: product, role skills, practice, then live practice, with a test every Friday. The 10:30 AM morning meeting and 6:00 PM KPI update start today.",
+    link: { href: "/docs/role-training-head/", label: "Training plan" },
+  },
+  {
+    date: "2026-12-12", title: "SOPs and HR letters ready", owner: "Admin & HR", category: "people",
+    about: "Admin & HR has every SOP and HR letter ready, issues appointment letters to everyone, and sets up employee files, attendance and the KPI board sheet.",
+  },
+  {
+    date: "2026-12-18", title: "Ad creatives + 7 SP demo videos ready", owner: "Marketing", category: "marketing",
+    about: "Marketing finishes the Meta ad creatives for both funnels and one demo video for each of the 7 products. The GM approves them. Partners use these videos because iSuite AI gives no live sales demos.",
+  },
+  {
+    date: "2026-12-21", title: "Test ads start (small budget)", owner: "Marketing", category: "marketing",
+    about: "Small test ads run in both funnels, so the team practises on real leads and sees a first cost per lead before launch.",
+  },
+  {
+    date: "2026-12-31", title: "Final training tests + best trainee + budget review", owner: "Training Head, GM", category: "people",
+    about: "Final tests for every role, the best trainee of the month, and a review of December's spend against the budget.",
+  },
+  {
+    date: "2027-01-01", title: "Launch: Meta ads live in both funnels", owner: "GM", category: "milestone",
+    about: "Meta ads go fully live: ₹30,000 a month for SP recruitment and ₹20,000 for direct free trials. January targets: 5 new SPs and 5 direct paying customers.",
+    link: { href: "/docs/team-targets/", label: "90-Day Targets" },
+  },
+  {
+    date: "2027-01-08", title: "Pongal campaign live", owner: "Marketing", category: "marketing",
+    about: "Marketing runs the Pongal ad campaign. The GM approves it before it goes live.",
+  },
+  {
+    date: "2027-01-14", title: "Office Pongal celebration", owner: "Admin & HR", category: "people",
+    about: "The team celebrates Pongal in the office. This is January's team event.",
+  },
+  {
+    date: "2027-01-18", title: "Cost-per-lead check: reset Feb & Mar targets", owner: "GM", category: "money",
+    about: "After 2 weeks of ads, the GM compares the real cost per lead with the ₹300 estimate and resets the February and March targets if needed.",
+  },
+  {
+    date: "2027-01-30", title: "Customer how-to guides ready", owner: "Marketing", category: "marketing",
+    about: "How-to guides and videos for customers, one set per product. Customer Support uses them during setup.",
+  },
+  {
+    date: "2027-02-01", title: "Month 2 · Scale: more spend on winning ads", owner: "GM", category: "milestone",
+    about: "Put more money on the ads that bring leads at the lowest cost, and push signed partners to their first sale. February target: 10 new SPs.",
+  },
+  {
+    date: "2027-03-01", title: "Month 3 · Optimise", owner: "GM", category: "milestone",
+    about: "Cut weak ads, push partners to sell, and close the 90-day targets. March target: 15 new SPs.",
+  },
+  {
+    date: "2027-03-31", title: "90-day review + plan for April–June", owner: "GM", category: "milestone",
+    about: "The GM checks the 90 days against the targets (30 new SPs, 25 direct paying customers, 70% of clients retained) and plans April to June.",
+  },
 ];
 
 // ---------- Date helpers ----------
@@ -269,6 +403,24 @@ export function buildEvents(): Record<string, DayEvent[]> {
     list.sort((a, b) => categoryOrder.indexOf(a.category) - categoryOrder.indexOf(b.category));
   }
   return map;
+}
+
+// The morning meeting and KPI update run every working day from the first training day.
+// They are shown in day views, not as calendar chips.
+export const dailyFrom = "2026-12-01";
+export const dailyEvents: Pick<CalEvent, "time" | "title" | "owner" | "about">[] = [
+  {
+    time: "10:30 AM", title: "Morning meeting + pledge", owner: "Admin & HR",
+    about: "15 minutes, everyone from both shifts. The pledge, yesterday's numbers and today's target. Admin & HR runs it.",
+  },
+  {
+    time: "6:00 PM", title: "KPI update", owner: "Everyone → Admin & HR",
+    about: "Everyone sends the day's numbers. Admin & HR updates the KPI board by 6:30 PM.",
+  },
+];
+
+export function hasDaily(iso: string): boolean {
+  return iso >= dailyFrom && iso <= planEnd && isWorkingDay(fromISO(iso));
 }
 
 export function phaseOn(iso: string): Phase | undefined {
