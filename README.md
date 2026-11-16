@@ -1,6 +1,13 @@
-# iSuite AI – Partner Docs
+# iSuite AI – Docs
 
-Solution Partner documents ellaam ore website-la. Ovvoru document-um side-la oru tab.
+iSuite AI-oda ella documents-um plans-um ore website-la. 4 sections:
+
+- **Solution Partners** – Program Rules, Agreement, Brochure, Getting Started, FAQ
+- **Roles** – General Manager, Admin & HR, Marketing, Partner Relations, Customer Support, Training Head
+- **Team Plan** – Team Operating Plan, 90-day targets, budget, team calendar
+- **SOPs** – Partner Onboarding SOP, Monthly Payout SOP, HR Letters
+
+Indha site team-ku mattum. Partners-ku site link anuppaadheenga – partner docs-a **Print / Save PDF** panni PDF-aa anuppunga.
 
 ## Run panna (first time)
 
@@ -45,9 +52,26 @@ Intro line...
 
 - `short` = sidebar tab-la theriyra peru
 - `order` = tab varisai (1, 2, 3...)
+- `section` = endha section-la varanum: `sp` (Solution Partners), `roles`, `plan` (Team Plan), `sops`
+- `toc: false` = "On this page" list venaam, page full width (calendar page maadhiri)
 - `## ` headings ellaam "On this page" list-la automatic-aa varum
 
-"Soon" tabs-ai `lib/site.ts`-la maathalaam.
+Section peru, varisai, one-line description ellaam `lib/site.ts`-la maathalaam. Section icon `components/SectionIcon.tsx`-la.
+
+### Visual blocks (calendar, org chart, timeline)
+
+Endha `.md` file-laiyum indha maadhiri oru empty code block pottaa andha visual varum:
+
+````
+```team-calendar
+```
+````
+
+- `team-calendar` – month-by-month team calendar
+- `org-chart` – team structure
+- `phase-timeline` – Recruit → Train → Launch → Scale → Optimise
+
+Calendar dates, meeting times, owners, holidays ellaam `lib/team-plan.ts`-la irukku. Anga maathinaa calendar-um timeline-um update aagum.
 
 ## Publish panna
 

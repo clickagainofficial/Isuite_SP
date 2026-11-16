@@ -3,7 +3,7 @@ title: Solution Partner Agreement
 short: Partner Agreement
 summary: The agreement every Solution Partner signs before starting work.
 order: 2
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 Indha Agreement iSuite AI-kkum keezhe sollirukkura Solution Partner-kkum idaiye pottukkappadudhu. Idhu moolama Partner, iSuite AI-kku clients-a konduvandhu, Solution Partner Program Rules padi commission sambaadikkalaam.
@@ -122,7 +122,7 @@ Partner-oda indha Agreement breach, Clients kitta poy solradhu, Client data misu
 4. **Severability:** Indha Agreement-la edha paagam-um invalid aana, meedhi baagam thodarndhu apply aagum.
 5. **No waiver:** Oru samayam oru right-a enforce pannaama irundhaa, andha right-a vittukuduthadhu-nnu artham illai.
 6. **Notices:** Indha Agreement-la irukkura contact details-ku email alladhu WhatsApp moolama anuppina, alladhu adhula irukkura addresses-ku post moolama anuppina, Notices valid.
-7. **Copies:** Indha Agreement rendu copy-la sign pannappadudhu, ovvoru Party-ku onnu.
+7. **Copies and signing:** Indha Agreement-a paper-la rendu copy-la sign pannalaam, ovvoru Party-ku onnu. Illa, sign panna scan copy alladhu photo-va email alladhu WhatsApp moolama maathikittum sign pannalaam. Paper-o scan-o, sign panna ovvoru copy-um original dhaan, ellaam serndhu oray Agreement.
 
 ## Schedule A: Partner details (Partner vivaram)
 

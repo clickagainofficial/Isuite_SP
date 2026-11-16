@@ -2,8 +2,9 @@
 title: Solution Partner Agreement
 short: Partner Agreement
 summary: The agreement every Solution Partner signs before starting work.
+section: sp
 order: 2
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 This Agreement is signed between iSuite AI and the Solution Partner named below. It lets the Partner bring clients to iSuite AI and earn commission under the Solution Partner Program Rules.
@@ -122,7 +123,7 @@ The Partner shall pay iSuite AI for any loss, claim, penalty or cost that iSuite
 4. **Severability:** If any part of this Agreement is invalid, the rest continues to apply.
 5. **No waiver:** Not enforcing a right at one time does not give up that right.
 6. **Notices:** Notices are valid when sent by email or WhatsApp to the contact details in this Agreement, or by post to the addresses in it.
-7. **Copies:** This Agreement is signed in two copies, one for each Party.
+7. **Copies and signing:** This Agreement may be signed on paper in two copies, one for each Party, or by exchanging signed scanned copies or photos by email or WhatsApp. Each signed copy, on paper or scanned, is an original, and all of them together form one Agreement.
 
 ## Schedule A: Partner details
 

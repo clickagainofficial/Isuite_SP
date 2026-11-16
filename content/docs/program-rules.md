@@ -2,8 +2,9 @@
 title: Solution Partner Program Rules
 short: Program Rules
 summary: How Solution Partners earn, get paid and work with iSuite AI.
+section: sp
 order: 1
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 The iSuite AI Solution Partner Program pays partners a commission for every client they bring to iSuite AI: **15% for a Direct Sale** and **10% for a Referral**, on the first payment and on every renewal.
@@ -27,13 +28,14 @@ The program is run by iSuite AI, Madurai, Tamil Nadu. These rules apply to every
 
 ## 3. Eligibility and joining
 
-Joining is free. Any business registered in India can apply.
+Joining is free. Any business registered in India can apply. The applicant can join **in person** at the iSuite AI office in Madurai, or fully **online** from anywhere in India. Both ways follow the same steps and the same rules.
 
 1. The applicant submits the partner application with name, contact details and business details.
-2. The applicant completes KYC: PAN, a bank account in their own name or their business's name, and GSTIN if GST-registered.
-3. The applicant accepts the Solution Partner Agreement and these rules.
-4. iSuite AI reviews the application and approves or declines it. iSuite AI may decline without giving a reason.
-5. On approval, the Partner receives a partner login and can start working.
+2. iSuite AI talks to the applicant: on a video call (online) or at the office (in person).
+3. The applicant completes KYC: PAN, a bank account in their own name or their business's name, and GSTIN if GST-registered. Online, the applicant sends clear photos or scans and shows the original PAN card on the video call. In person, the applicant shows the originals.
+4. The applicant signs the Solution Partner Agreement and accepts these rules. In person, the Agreement is signed on paper at the office. Online, the applicant prints and signs it with 2 witnesses and sends a clear scan or photo of every page. A signed scanned copy is as valid as the paper copy.
+5. iSuite AI reviews the application and approves or declines it. iSuite AI may decline without giving a reason.
+6. On approval, the Partner receives a partner login and can start working.
 
 ## 4. Roles and responsibilities
 

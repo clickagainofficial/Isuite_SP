@@ -2,8 +2,9 @@
 title: Solution Partner FAQ
 short: Partner FAQ
 summary: Short answers to the questions partners ask most, about joining, earning, clients and payouts.
+section: sp
 order: 5
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 Quick answers to common questions. The **Solution Partner Program Rules** and the **Solution Partner Agreement** are the full and final word. If an answer here ever differs from them, they apply.
@@ -20,11 +21,21 @@ No. Joining is free.
 
 ### What documents do I need?
 
-Your PAN and proof of your bank account (a cancelled cheque or the front page of your passbook). If you are GST-registered, your GST certificate too. If you join as a firm, LLP or company, proof that the person signing can sign for the business.
+Your PAN and proof of your bank account (a cancelled cheque or the front page of your passbook). If you are GST-registered, your GST certificate too. If you join as a firm, LLP or company, proof that the person signing can sign for the business. Clear photos or scans are fine.
 
 ### How long does approval take?
 
 We review applications within about 2 working days. After that you complete KYC and sign the Solution Partner Agreement, and then your partner login is created.
+
+### Do I have to visit your office to join?
+
+No. You can join fully online from anywhere in India:
+
+1. A short video call with our partner team, on WhatsApp or Google Meet. Keep your original PAN card ready to show.
+2. Your KYC documents as clear photos or scans, on WhatsApp or email.
+3. The Partner Agreement: print it, sign every page with 2 witnesses, and send us a scan or photo of every page. You do not need to post the paper copy.
+
+If you are near Madurai and prefer to meet, you can do all of this at our office instead.
 
 ### Is there a sales target or a fixed area?
 

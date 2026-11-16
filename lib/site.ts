@@ -1,12 +1,36 @@
-// Site-wide settings. Edit here to change the name, contact or the "coming soon" tabs.
+// Site-wide settings. Edit here to change the name or the sections.
 export const site = {
   name: "iSuite AI",
-  section: "Partner Docs",
-  tagline:
-    "iSuite AI is industry-specific business software with AI built in. An AI agent replies to customers on WhatsApp in Tamil, Tanglish and English, and one app handles customers, bookings, billing, payments, renewals, marketing and calls.",
+  section: "Docs",
   mainSite: "https://isuite.ai",
-  whatsapp: "https://wa.me/918220947112",
-  email: "info@mntfuture.com",
-  // Shown greyed out in the sidebar until a matching file exists in content/docs.
-  upcoming: ["Partner Brochure"],
+  // Each doc picks its section with `section:` in its frontmatter.
+  // Sections show in this order in the sidebar and on the Overview page.
+  sections: [
+    {
+      id: "sp",
+      title: "Solution Partners",
+      blurb: "Rules, agreement and guides for partners. Send them to partners as PDFs.",
+    },
+    {
+      id: "roles",
+      title: "Roles",
+      blurb: "One card per role: the work, the KPIs and the daily rhythm.",
+    },
+    {
+      id: "plan",
+      title: "Team Plan",
+      blurb: "Targets, budget and calendar, from November 2026 to March 2027.",
+    },
+    {
+      id: "sops",
+      title: "SOPs",
+      blurb: "Step-by-step team processes and HR letter templates.",
+    },
+  ],
 };
+
+export type SiteSection = (typeof site.sections)[number];
+
+export function sectionOf(id: string): SiteSection | undefined {
+  return site.sections.find((s) => s.id === id);
+}

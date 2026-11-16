@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import DocView from "@/components/DocView";
 import { getAllDocs, getDoc, formatDate } from "@/lib/docs";
+import { sectionOf } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -18,9 +19,11 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
   const { slug } = await params;
   const doc = getDoc(slug);
   if (!doc) notFound();
+  const sec = sectionOf(doc.section);
 
   return (
     <DocView
+      section={sec ? { id: sec.id, title: sec.title } : undefined}
       title={doc.title}
       summary={doc.summary}
       status={doc.status}
@@ -29,6 +32,7 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
       headings={doc.headings}
       bodyTa={doc.bodyTa}
       headingsTa={doc.headingsTa}
+      toc={doc.toc}
     />
   );
 }

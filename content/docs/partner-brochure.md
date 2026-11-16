@@ -2,8 +2,9 @@
 title: Become an iSuite AI Solution Partner
 short: Partner Brochure
 summary: Earn 15% on every business you bring to iSuite AI, and again every time they renew.
+section: sp
 order: 3
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 Introduce local businesses to iSuite AI and earn **15% commission** on every sale you close, plus the same commission **every year they renew**. Joining is free. You find and convince the client. Our team handles the setup, training and support.
@@ -86,10 +87,13 @@ Higher plans pay more. A Clinic Growth plan (₹22,999) earns ≈ ₹3,450 per s
 
 ## How to join
 
+Join at our office in Madurai, or fully online from anywhere in India. You do not have to visit us.
+
 1. **Apply.** Send us your name, phone and city on WhatsApp, or fill the partner application form on isuite.ai.
-2. **KYC.** Share your PAN and bank details (and GSTIN if you have one).
-3. **Sign the agreement.** Sign the Solution Partner Agreement and send us the copy.
-4. **Start earning.** Get your partner login, share your first link and bring your first client.
+2. **Talk to us.** A short video call, or a meeting at our office if you prefer.
+3. **KYC.** Share your PAN and bank details (and GSTIN if you have one), as photos or scans.
+4. **Sign the agreement.** Sign the Solution Partner Agreement at our office, or print it, sign it and send us a scan or photo.
+5. **Start earning.** Get your partner login, share your first link and bring your first client.
 
 ## Play fair
 
@@ -106,6 +110,7 @@ Full details are in the **Solution Partner Program Rules** and the **Solution Pa
 | Question | Answer |
 | --- | --- |
 | Is there any joining fee? | No. Joining is free. |
+| Do I have to visit your office? | No. You can join fully online, or meet us in Madurai if you prefer. |
 | Who explains the product to the client? | You do. You find and convince the client. Once they pay, our team does the setup, training and support. |
 | When do I get paid? | On the 5th of every month, by bank transfer. |
 | What if the client is on free trial? | You earn once the client makes the first payment after the trial. |

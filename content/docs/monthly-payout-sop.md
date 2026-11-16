@@ -2,6 +2,7 @@
 title: Monthly Payout SOP
 short: Payout SOP
 summary: Internal steps for the iSuite AI team to calculate, check and pay partner commission on the 5th of every month.
+section: sops
 order: 7
 updated: 2026-11-11
 status: Internal
@@ -75,7 +76,7 @@ Before paying, confirm for each partner:
 
 ## Step 6: Pay
 
-1. Get the payout list approved.
+1. Get the payout list approved by the **General Manager** on the working day before the 5th. Admin & HR prepares the list; the person who prepares it never approves it alone.
 2. Send each payout by **bank transfer** to the account verified in KYC.
 3. Record the transfer reference against each payout.
 
@@ -111,6 +112,6 @@ A partner can raise an issue about commission or attribution in writing within *
 - [ ] PAN and bank account confirmed for every partner being paid
 - [ ] GST invoices received from GST-registered partners
 - [ ] TDS deducted where required
-- [ ] Payout list approved
+- [ ] Payout list approved by the General Manager
 - [ ] Transfers sent on the 5th
 - [ ] Statements sent and commissions marked Paid

@@ -6,14 +6,13 @@ import "@fontsource/poppins/500.css";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
 import "./globals.css";
-import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import { getAllDocs } from "@/lib/docs";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { default: `${site.name} ${site.section}`, template: `%s · ${site.name} ${site.section}` },
-  description: "Rules, agreements and guides for iSuite AI Solution Partners.",
+  description: "Solution Partner documents, roles, the team plan and SOPs for the iSuite AI team.",
   robots: { index: false, follow: false },
 };
 
@@ -25,17 +24,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <div className="app">
-          <Sidebar docs={docs} upcoming={site.upcoming} />
+          <Sidebar docs={docs} />
           <div className="page">
-            <Header />
             <main className="main">{children}</main>
             <footer className="site-footer">
-              <span>
-                © {new Date().getFullYear()} {site.name} · Madurai, Tamil Nadu
-              </span>
-              <span>
-                Questions? <a href={site.whatsapp}>WhatsApp</a> · <a href={`mailto:${site.email}`}>{site.email}</a>
-              </span>
+              © {new Date().getFullYear()} {site.name} · For the iSuite AI team only
             </footer>
           </div>
         </div>

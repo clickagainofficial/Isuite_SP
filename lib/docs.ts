@@ -15,6 +15,10 @@ export type DocMeta = {
   order: number;
   updated: string;
   status: string;
+  // "sp", "roles", "plan" or "sops". See site.sections.
+  section: string;
+  // false hides the "On this page" list and gives the page full width.
+  toc: boolean;
 };
 
 export type Doc = DocMeta & {
@@ -67,6 +71,8 @@ function readFile(file: string): Doc {
     order: Number(data.order ?? 99),
     updated,
     status: String(data.status ?? ""),
+    section: String(data.section ?? "sp"),
+    toc: data.toc !== false,
     body: content,
     headings,
     bodyTa,

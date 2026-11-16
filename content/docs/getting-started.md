@@ -2,21 +2,32 @@
 title: Getting Started as a Solution Partner
 short: Getting Started
 summary: Step by step, from applying to earning your first commission.
+section: sp
 order: 4
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 You can go from application to your first client in about a week. Follow these 7 steps in order. Each step tells you what to do, what you need and what happens next.
+
+## Join in person or online
+
+You can join at our office in Madurai, or fully online from anywhere in India. Both ways have the same steps and take the same time. Tell us which you prefer when you apply.
+
+| Step | In person | Online |
+| --- | --- | --- |
+| Short chat with our team | At our Madurai office | Video call on WhatsApp or Google Meet |
+| KYC documents | Bring the originals | Send clear photos or scans, and show your original PAN card on the video call |
+| Partner Agreement | Sign it at our office | Print it, sign it, and send a scan or photo of every page |
 
 ## Step 1: Apply
 
 Send your application to the iSuite AI partner team.
 
 - **How:** WhatsApp "PARTNER" to +91 82209 47112, or fill the partner application form on isuite.ai.
-- **What to share:** Your name, business name, mobile number, email, city, and how you plan to find clients.
+- **What to share:** Your name, business name, mobile number, email, city, how you plan to find clients, and whether you want to join in person or online.
 - **Cost:** Free. There is no joining fee.
 
-**What happens next:** Our partner team reviews your application, usually within 2 working days, and may call you for a short chat.
+**What happens next:** Our partner team reviews your application, usually within 2 working days, and sets up a short chat with you: a video call, or a meeting at our Madurai office if you prefer.
 
 ## Step 2: Complete your KYC
 
@@ -31,14 +42,19 @@ KYC lets us verify you and pay your commission to the right account.
 
 > **PAN is compulsory.** Commission cannot be paid without a valid PAN.
 
+- **Online:** send clear photos or scans on WhatsApp or email. On the video call, show us your original PAN card.
+- **In person:** bring the originals to our office. We take copies and give the originals back.
+
 **What happens next:** We verify your documents and tell you if anything is missing.
 
 ## Step 3: Sign the Partner Agreement
 
 1. We send you the **Solution Partner Agreement** with your details filled in Schedule A.
 2. Read it, along with the **Solution Partner Program Rules**. Ask us if anything is unclear.
-3. Sign the agreement, add 2 witnesses, and send the signed copy back to us (scan or photo of every page).
-4. We sign our copy and send it to you.
+3. Sign the agreement and get 2 witnesses to sign:
+    - **Online:** print it, sign every page, and send us a clear scan or photo of every page on WhatsApp or email. You do not need to post the paper copy.
+    - **In person:** sign it at our office.
+4. We sign for iSuite AI and send you the signed copy: a PDF on WhatsApp and email, or a paper copy if you signed at our office.
 
 **What happens next:** Your partner account is approved and becomes active.
 

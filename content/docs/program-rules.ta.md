@@ -3,7 +3,7 @@ title: Solution Partner Program Rules
 short: Program Rules
 summary: How Solution Partners earn, get paid and work with iSuite AI.
 order: 1
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 iSuite AI Solution Partner Program la, oru Partner iSuite AI-ku kondu vandhu sera client-ku commission kudukkuthu: **Direct Sale-ku 15%** and **Referral-ku 10%**, first payment la and ovvoru renewal la yum.
@@ -27,13 +27,14 @@ Indha program iSuite AI, Madurai, Tamil Nadu nadathuthu. Indha rules ellaa Solut
 
 ## 3. Yaar serlaam & join panradhu (Eligibility and joining)
 
-Join panradhu free. India la register aana endha business-um apply pannalaam.
+Join panradhu free. India la register aana endha business-um apply pannalaam. Madurai-la irukkura iSuite AI office-ku **nera vandhu** join pannalaam, illa India-la endha idathula irundhaalum full-aa **online**-laye join pannalaam. Rendu vazhiyilum adhey steps, adhey rules.
 
 1. Apply pannuravar oru partner application-ah name, contact details and business details oda submit pannanum.
-2. Apply pannuravar KYC complete pannanum: PAN, avanga per la illa avanga business per la oru bank account, and GST-registered-nna GSTIN.
-3. Apply pannuravar Solution Partner Agreement and indha rules-ah accept pannanum.
-4. iSuite AI application-ah paathu approve illa decline pannum. Karanam sollaama kooda iSuite AI decline pannalaam.
-5. Approve aana udaney, Partner-ku oru partner login kedaikkum, and velai aarambikkalaam.
+2. iSuite AI apply pannuravar kitta pesum: video call-la (online) illa office-la (nera vandhu).
+3. Apply pannuravar KYC complete pannanum: PAN, avanga per la illa avanga business per la oru bank account, and GST-registered-nna GSTIN. Online-na, clear photo illa scan anuppanum, video call-la original PAN card-ah kaattanum. Nera vandhaa, originals-ah kaattanum.
+4. Apply pannuravar Solution Partner Agreement-la sign panni, indha rules-ah accept pannanum. Nera vandhaa, office-laye paper-la sign pannalaam. Online-na, print panni 2 witnesses oda sign panni, ovvoru page-oda clear scan illa photo anuppanum. Sign panna scan copy-um paper copy maadhiriye valid.
+5. iSuite AI application-ah paathu approve illa decline pannum. Karanam sollaama kooda iSuite AI decline pannalaam.
+6. Approve aana udaney, Partner-ku oru partner login kedaikkum, and velai aarambikkalaam.
 
 ## 4. Role-um Responsibility-um (Roles and responsibilities)
 
